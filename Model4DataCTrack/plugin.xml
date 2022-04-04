@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated model4datactrack.profile -->
+      <package
+            uri="https://www.model4datactrack.com/Model4DataCTrack/1"
+            class="Model4DataCtrack.Model4DataCtrackPackage"
+            genModel="Profile/model4datactrack.profile.genmodel"/>
+   </extension>
+   <extension
+         point="org.eclipse.emf.ecore.uri_mapping">
+      <mapping
+            source="pathmap://MODEL4DATACTRACK_PROFILE/"
+            target="platform:/plugin/Model4DataCTrack/Profile/">
+      </mapping>
+   </extension>
+   <extension
+         point="org.eclipse.uml2.uml.generated_package">
+      <profile
+            location="pathmap://MODEL4DATACTRACK_PROFILE/Model4DataCTrack.profile.uml#_y17KgDuxEeyh_cZcIVzzKg"
+            uri="https://www.model4datactrack.com/Model4DataCTrack/1">
+      </profile>
+   </extension>
+   <extension
+         point="org.eclipse.papyrus.uml.extensionpoints.UMLProfile">
+      <profile
+            description="Model4DataCTrack"
+            name="Model4DataCTrack"
+            path="pathmap://MODEL4DATACTRACK_PROFILE/Model4DataCTrack.profile.uml"
+            provider="Miguel">
+      </profile>
+   </extension>
+
+</plugin>
