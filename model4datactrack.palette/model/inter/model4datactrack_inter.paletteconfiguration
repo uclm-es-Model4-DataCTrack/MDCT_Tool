@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paletteconfiguration:PaletteConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" xmlns:paletteconfiguration="http://www.eclipse.org/papyrus/diagram/paletteconfiguration/0.8" id="mdctinter_040420221740" label="MDCT Interaction">
+  <drawerConfigurations xmi:type="paletteconfiguration:DrawerConfiguration" id="mdctinter_040420221740" label="MDCT Interaction">
+    <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Message.gif"/>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="createLifeline1CreationTool_1649087182447" label="User (Lifeline)" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Lifeline.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/inter/model4datactrack_inter_UI.elementtypesconfigurations#_YKkOMbQuEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="createLifeline1CreationTool_1649087185735" label="ControllerCP (Lifeline)" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Lifeline.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/inter/model4datactrack_inter_UI.elementtypesconfigurations#_Yp2LMbQuEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="createLifeline1CreationTool_1649087191186" label="StatelessAppCTP (Lifeline)" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Lifeline.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/inter/model4datactrack_inter_UI.elementtypesconfigurations#_ZdyJkbQuEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="createLifeline1CreationTool_1649087195046" label="SSMProcessor (Lifeline)" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Lifeline.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/inter/model4datactrack_inter_UI.elementtypesconfigurations#_aCmt4bQuEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:SeparatorConfiguration" id="Separator_1649087202052" label="Separator"/>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="createMessageAsync2CreationTool_1649087208126" label="Info (Message Async)" description="" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Message_asynchCall.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/inter/model4datactrack_inter_UI.elementtypesconfigurations#_b_f4YbQuEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="createMessageAsync2CreationTool_1649087218959" label="SP (Message Async)" description="" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Message_asynchCall.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/inter/model4datactrack_inter_UI.elementtypesconfigurations#_dmsfsbQuEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="createMessageAsync2CreationTool_1649087230720" label="accessInformation (Message Async)" description="" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Message_asynchCall.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/inter/model4datactrack_inter_UI.elementtypesconfigurations#_fW21wbQuEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="createMessageAsync2CreationTool_1649087243587" label="askAuthentication (Message Async)" description="" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Message_asynchCall.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/inter/model4datactrack_inter_UI.elementtypesconfigurations#_hRldELQuEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="createMessageAsync2CreationTool_1649087248502" label="askDataInformation (Message Async)" description="" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Message_asynchCall.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/inter/model4datactrack_inter_UI.elementtypesconfigurations#_iAdVQLQuEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="createMessageAsync2CreationTool_1649087252536" label="checkChanges (Message Async)" description="" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Message_asynchCall.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/inter/model4datactrack_inter_UI.elementtypesconfigurations#_im9UkLQuEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="createMessageAsync2CreationTool_1649087257942" label="consent (Message Async)" description="" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Message_asynchCall.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/inter/model4datactrack_inter_UI.elementtypesconfigurations#_jaUrMbQuEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="createMessageAsync2CreationTool_1649087262070" label="consentInfo (Message Async)" description="" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Message_asynchCall.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/inter/model4datactrack_inter_UI.elementtypesconfigurations#_kB2lQbQuEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="createMessageAsync2CreationTool_1649087265754" label="eraseData (Message Async)" description="" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Message_asynchCall.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/inter/model4datactrack_inter_UI.elementtypesconfigurations#_kk_ukbQuEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="createMessageAsync2CreationTool_1649087269755" label="informBreaches (Message Async)" description="" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Message_asynchCall.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/inter/model4datactrack_inter_UI.elementtypesconfigurations#_lLJIkbQuEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="createMessageAsync2CreationTool_1649087273430" label="informationNotForFree (Message Async)" description="" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Message_asynchCall.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/inter/model4datactrack_inter_UI.elementtypesconfigurations#_luFdkbQuEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="createMessageAsync2CreationTool_1649087277837" label="newData (Message Async)" description="" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Message_asynchCall.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/inter/model4datactrack_inter_UI.elementtypesconfigurations#_mYOmwbQuEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="createMessageAsync2CreationTool_1649087296949" label="newRestrictions (Message Async)" description="" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Message_asynchCall.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/inter/model4datactrack_inter_UI.elementtypesconfigurations#_pOYUgbQuEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="createMessageAsync2CreationTool_1649087303545" label="notify (Message Async)" description="" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Message_asynchCall.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/inter/model4datactrack_inter_UI.elementtypesconfigurations#_qNOiYbQuEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="createMessageAsync2CreationTool_1649087308512" label="ok (Message Async)" description="" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Message_asynchCall.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/inter/model4datactrack_inter_UI.elementtypesconfigurations#_q8sQcbQuEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="createMessageAsync2CreationTool_1649087312925" label="permission (Message Async)" description="" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Message_asynchCall.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/inter/model4datactrack_inter_UI.elementtypesconfigurations#_rm0ykbQuEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="createMessageAsync2CreationTool_1649087319023" label="readData (Message Async)" description="" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Message_asynchCall.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/inter/model4datactrack_inter_UI.elementtypesconfigurations#_sguPAbQuEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="createMessageAsync2CreationTool_1649087337212" label="rectifyData (Message Async)" description="" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Message_asynchCall.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/inter/model4datactrack_inter_UI.elementtypesconfigurations#_vOL60bQuEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="createMessageAsync2CreationTool_1649087345952" label="removeData (Message Async)" description="" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Message_asynchCall.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/inter/model4datactrack_inter_UI.elementtypesconfigurations#_whumUbQuEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="createMessageAsync2CreationTool_1649087353423" label="removeSPInLog (Message Async)" description="" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Message_asynchCall.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/inter/model4datactrack_inter_UI.elementtypesconfigurations#_xo4bobQuEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="createMessageAsync2CreationTool_1649087359603" label="reportDataDManagementForFree (Message Async)" description="" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Message_asynchCall.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/inter/model4datactrack_inter_UI.elementtypesconfigurations#_yj0Z4bQuEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="createMessageAsync2CreationTool_1649087367764" label="reportDataManagement (Message Async)" description="" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Message_asynchCall.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/inter/model4datactrack_inter_UI.elementtypesconfigurations#_zx1sMbQuEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="createMessageAsync2CreationTool_1649087372444" label="sendData (Message Async)" description="" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Message_asynchCall.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/inter/model4datactrack_inter_UI.elementtypesconfigurations#_0eSigbQuEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="createMessageAsync2CreationTool_1649087377076" label="subscribe (Message Async)" description="" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Message_asynchCall.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/inter/model4datactrack_inter_UI.elementtypesconfigurations#_1KrucLQuEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="createMessageAsync2CreationTool_1649087385512" label="timeoutSubscription (Message Async)" description="" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Message_asynchCall.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/inter/model4datactrack_inter_UI.elementtypesconfigurations#_2a7OUbQuEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="createMessageAsync2CreationTool_1649087393887" label="tp (Message Async)" description="" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Message_asynchCall.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/inter/model4datactrack_inter_UI.elementtypesconfigurations#_3q9S0LQuEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="createMessageAsync2CreationTool_1649087399973" label="upDate (Message Async)" description="" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Message_asynchCall.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/inter/model4datactrack_inter_UI.elementtypesconfigurations#_4k06EbQuEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="createMessageAsync2CreationTool_1649087433727" label="wantToAccess (Message Async)" description="" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Message_asynchCall.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/inter/model4datactrack_inter_UI.elementtypesconfigurations#_9mvUwbQuEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="createMessageAsync2CreationTool_1649087439448" label="writeData (Message Async)" description="" kind="ConnectionTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Message_asynchCall.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/inter/model4datactrack_inter_UI.elementtypesconfigurations#_-deIcbQuEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+  </drawerConfigurations>
+  <requiredProfiles>Model4DataCtrack</requiredProfiles>
+</paletteconfiguration:PaletteConfiguration>

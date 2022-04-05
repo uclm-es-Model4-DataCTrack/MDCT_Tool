@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Architecture
+Bundle-SymbolicName: model4datactrack.architecture
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: model4datactrack.architecture
+Bundle-RequiredExecutionEnvironment: JavaSE-11
