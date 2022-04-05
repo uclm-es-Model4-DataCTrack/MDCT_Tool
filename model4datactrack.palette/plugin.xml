@@ -1,33 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?eclipse version="3.4"?>
-<plugin>
-   <extension
-         point="org.eclipse.papyrus.infra.types.core.elementTypeSetConfiguration">
-      <elementTypeSet
-            clientContextID="model4datactrack.palette.elementTypeSet1"
-            path="model/infra/model4datactrack_infra_Semantic.elementtypesconfigurations">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?eclipse version="3.4"?><plugin>
+      
+   <extension point="org.eclipse.papyrus.infra.types.core.elementTypeSetConfiguration">
+            
+      <elementTypeSet clientContextID="org.eclipse.papyrus.infra.services.edit.TypeContext" path="model/infra/model4datactrack_infra_Semantic.elementtypesconfigurations">
       </elementTypeSet>
+         
    </extension>
-   <extension
-         point="org.eclipse.papyrus.infra.types.core.elementTypeSetConfiguration">
-      <elementTypeSet
-            clientContextID="model4datactrack.palette.elementTypeSet1"
-            path="model/infra/model4datactrack_infra_UI.elementtypesconfigurations">
+      
+   <extension point="org.eclipse.papyrus.infra.types.core.elementTypeSetConfiguration">
+            
+      <elementTypeSet clientContextID="org.eclipse.papyrus.infra.services.edit.TypeContext" path="model/infra/model4datactrack_infra_UI.elementtypesconfigurations">
       </elementTypeSet>
+         
    </extension>
-   <extension
-         point="org.eclipse.papyrus.infra.types.core.elementTypeSetConfiguration">
-      <elementTypeSet
-            clientContextID="model4datactrack.palette.elementTypeSet1"
-            path="model/inter/model4datactrack_inter_Semantic.elementtypesconfigurations">
+      
+   <extension point="org.eclipse.papyrus.infra.types.core.elementTypeSetConfiguration">
+            
+      <elementTypeSet clientContextID="model4datactrack.palette.inter.sem.elementTypeSet" path="model/inter/model4datactrack_inter_Semantic.elementtypesconfigurations">
       </elementTypeSet>
+         
    </extension>
-   <extension
-         point="org.eclipse.papyrus.infra.types.core.elementTypeSetConfiguration">
-      <elementTypeSet
-            clientContextID="model4datactrack.palette.elementTypeSet1"
-            path="model/inter/model4datactrack_inter_UI.elementtypesconfigurations">
+      
+   <extension point="org.eclipse.papyrus.infra.types.core.elementTypeSetConfiguration">
+            
+      <elementTypeSet clientContextID="model4datactrack.palette.inter.ui.elementTypeSet" path="model/inter/model4datactrack_inter_UI.elementtypesconfigurations">
       </elementTypeSet>
+         
    </extension>
-
+   
+   <extension point="org.eclipse.papyrus.infra.types.core.elementTypeSetConfiguration">
+      <elementTypeSet clientContextID="org.eclipse.papyrus.infra.services.edit.TypeContext" path="model/Model4DataCtrack.elementtypesconfigurations"/>
+   </extension>
 </plugin>
