@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nattable:Table xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:nattable="http://www.eclipse.org/papyrus/nattable/model" xmlns:nattableaxis="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxis" xmlns:nattableaxisconfiguration="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisconfiguration" xmlns:nattableaxisprovider="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisprovider" xmlns:nattableconfiguration="http://www.eclipse.org/papyrus/nattable/model/nattableconfiguration" xmlns:nattablestyle="http://www.eclipse.org/papyrus/nattable/model/table/nattablestyle" xmi:id="_C67HAK9UEeyWDLEucy4Zcg" description="Sets the elements you want to display in the Diagram" name="Stereotype display" currentRowAxisProvider="_C67HEK9UEeyWDLEucy4Zcg" currentColumnAxisProvider="_C67HBa9UEeyWDLEucy4Zcg">
+  <styles xmi:type="nattablestyle:TableDisplayStyle" xmi:id="_C67HAa9UEeyWDLEucy4Zcg" displayStyle="HIERARCHIC_SINGLE_TREE_COLUMN"/>
+  <styles xmi:type="nattablestyle:IntListValueStyle" xmi:id="_C67HAq9UEeyWDLEucy4Zcg" name="hiddenCategoriesByDepth">
+    <intListValue>1</intListValue>
+    <intListValue>2</intListValue>
+    <intListValue>3</intListValue>
+  </styles>
+  <styles xmi:type="nattablestyle:BooleanValueStyle" xmi:id="_C67HA69UEeyWDLEucy4Zcg" name="columnsWidthAsPercentage" booleanValue="true"/>
+  <styles xmi:type="nattablestyle:BooleanValueStyle" xmi:id="_C67HBK9UEeyWDLEucy4Zcg" name="expandAll" booleanValue="true"/>
+  <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.stereotype.display/config/stereotype.nattableconfiguration#PapyrusStereotypeDisplayTreeTable_XMI_ID"/>
+  <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_C67HBa9UEeyWDLEucy4Zcg" description="This axis provider provides available columns according to the columns of the table ( features of the object displayed on the other axis)" name="Stereotype display properties axis provider">
+    <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_C67HBq9UEeyWDLEucy4Zcg" alias="Name Depth" element="stereotype_display_properties:/nameDepth">
+      <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_C67HB69UEeyWDLEucy4Zcg" name="axisWidth" intValue="17"/>
+      <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.stereotype.display/config/stereotype.nattableconfiguration#_guSxnTzQEei_1txcmoHe_A"/>
+    </axis>
+    <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_C67HCK9UEeyWDLEucy4Zcg" alias="Visible" element="stereotype_display_properties:/isDisplayed">
+      <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_C67HCa9UEeyWDLEucy4Zcg" name="axisWidth" intValue="17"/>
+      <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.stereotype.display/config/stereotype.nattableconfiguration#_guSxnTzQEei_1txcmoHe_A"/>
+    </axis>
+    <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_C67HCq9UEeyWDLEucy4Zcg" alias="In Braces" element="stereotype_display_properties:/isDisplayedInBraces">
+      <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_C67HC69UEeyWDLEucy4Zcg" name="axisWidth" intValue="22"/>
+      <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.stereotype.display/config/stereotype.nattableconfiguration#_guSxnTzQEei_1txcmoHe_A"/>
+    </axis>
+    <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_C67HDK9UEeyWDLEucy4Zcg" alias="In Comment" element="stereotype_display_properties:/isDisplayedInComment">
+      <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_C67HDa9UEeyWDLEucy4Zcg" name="axisWidth" intValue="22"/>
+      <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.stereotype.display/config/stereotype.nattableconfiguration#_guSxnTzQEei_1txcmoHe_A"/>
+    </axis>
+    <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_C67HDq9UEeyWDLEucy4Zcg" alias="In Compartment" element="stereotype_display_properties:/isDisplayedInCompartment">
+      <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_C67HD69UEeyWDLEucy4Zcg" name="axisWidth" intValue="22"/>
+      <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.stereotype.display/config/stereotype.nattableconfiguration#_guSxnTzQEei_1txcmoHe_A"/>
+    </axis>
+  </columnAxisProvidersHistory>
+  <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_C67HEK9UEeyWDLEucy4Zcg" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowAxisManager" disconnectSlave="true"/>
+</nattable:Table>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;model4datactrack.profile/Profile&apos; to &apos;profile&apos;" description="Rename resource &apos;Profile&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Profile" name="profile" stamp="1648108580879" updateReferences="true"/>
+</session>

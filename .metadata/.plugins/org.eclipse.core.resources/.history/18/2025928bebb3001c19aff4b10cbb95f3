@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Validation
+Bundle-SymbolicName: model4datactrack.validation;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: model4datactrack.validation
+Bundle-RequiredExecutionEnvironment: JavaSE-16
+Require-Bundle: org.eclipse.emf.validation,
+ org.eclipse.papyrus.uml.service.validation,
+ org.eclipse.uml2.uml

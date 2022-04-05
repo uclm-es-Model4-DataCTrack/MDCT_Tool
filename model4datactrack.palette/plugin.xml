@@ -5,28 +5,28 @@
          point="org.eclipse.papyrus.infra.types.core.elementTypeSetConfiguration">
       <elementTypeSet
             clientContextID="model4datactrack.palette.elementTypeSet1"
-            path="model4datactrack.palette.elementTypeSet1">
+            path="model/infra/model4datactrack_infra_Semantic.elementtypesconfigurations">
       </elementTypeSet>
    </extension>
    <extension
          point="org.eclipse.papyrus.infra.types.core.elementTypeSetConfiguration">
       <elementTypeSet
             clientContextID="model4datactrack.palette.elementTypeSet1"
-            path="model4datactrack.palette.elementTypeSet1">
+            path="model/infra/model4datactrack_infra_UI.elementtypesconfigurations">
       </elementTypeSet>
    </extension>
    <extension
          point="org.eclipse.papyrus.infra.types.core.elementTypeSetConfiguration">
       <elementTypeSet
             clientContextID="model4datactrack.palette.elementTypeSet1"
-            path="model4datactrack.palette.elementTypeSet1">
+            path="model/inter/model4datactrack_inter_Semantic.elementtypesconfigurations">
       </elementTypeSet>
    </extension>
    <extension
          point="org.eclipse.papyrus.infra.types.core.elementTypeSetConfiguration">
       <elementTypeSet
             clientContextID="model4datactrack.palette.elementTypeSet1"
-            path="model4datactrack.palette.elementTypeSet1">
+            path="model/inter/model4datactrack_inter_UI.elementtypesconfigurations">
       </elementTypeSet>
    </extension>
 
