@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?eclipse version="3.4"?><plugin>
+      
    
    <extension name="dsml.validation.generated.model4datactrack" point="org.eclipse.emf.validation.constraintProviders">
       <category id="model4datactrack.validation.model4datactrack" mandatory="false" name="model4datactrack.validation.model4datactrack"/>
@@ -30,8 +31,6 @@ self.boards>0]]>
                <message>Destination machine in Access log not under SLA with controller in SP</message><![CDATA[self.accesslog->forAll(log | self.sla->exists(sla | log.newLocation.sla->includes(sla)))]]></constraint>
             <constraint id="Model4DataCtrack.ControllerCP.location1_machine_not_under_sla_with_controller" isEnabledByDefault="true" lang="OCLpivot" mode="Batch" name="location1_machine_not_under_sla_with_controller" severity="ERROR" statusCode="1">
                <message>Access log source machine not under SLA with controller in SP</message><![CDATA[self.accesslog->forAll(log | self.sla->exists(sla | log.location1.sla->includes(sla)))]]></constraint>
-            <constraint id="Model4DataCtrack.ControllerCP.sourceMachine_not_under_sla_with_controller" isEnabledByDefault="true" lang="OCLpivot" mode="Batch" name="sourceMachine_not_under_sla_with_controller" severity="ERROR" statusCode="1">
-               <message>Data source machine not under sla with user's controller</message><![CDATA[self.accesslog.sp.controller.sla->exists(sla | self.accesslog.location1.sla->includes(sla))]]></constraint>
             <constraint id="Model4DataCtrack.StickyPolicy.allowed_access_purpose" isEnabledByDefault="true" lang="OCLpivot" mode="Batch" name="allowed_access_purpose" severity="ERROR" statusCode="1">
                <message>Constraint 'allowed_access_purpose' is violated</message><![CDATA[self.accessHistory->forAll(his | his.purpose->forAll(p | self.purpose->includes(p)))]]></constraint>
             <constraint id="Model4DataCtrack.StickyPolicy.all_tps_in_history_given_permissions" isEnabledByDefault="true" lang="OCLpivot" mode="Batch" name="all_tps_in_history_given_permissions" severity="ERROR" statusCode="1">
@@ -40,7 +39,10 @@ self.boards>0]]>
                <![CDATA[self.accessHistory->forAll( his | AccessLog.allInstances()->exists( log | log.tp = his.tp and log.action = his.actionPerformed) )]]>
             </constraint>
             <constraint id="Model4DataCtrack.AccessLog.log_access_match_sp_access" isEnabledByDefault="true" lang="OCLpivot" mode="Batch" name="log_access_match_sp_access" severity="ERROR" statusCode="1">
-               <message>Constraint 'log_access_match_sp_access' is violated</message><![CDATA[AccessLog.allInstances()->forAll(log | log.sp.accessHistory->exists(access | access.tp = log.tp and access.actionPerformed=log.action))]]></constraint>
+               <message>Constraint 'log_access_match_sp_access' is violated</message>
+               <description>The new sticky policy of the log (nsp) must include the access represented in the log inside the accessHistory field, please create a new policy that satisfies it or add the access to the used one</description>
+               <![CDATA[AccessLog.allInstances()->forAll(log | log.nsp.accessHistory->exists(access | access.tp = log.tp and access.actionPerformed=log.action))]]>
+            </constraint>
             <constraint id="Model4DataCtrack.sendData.sendData_timeunit_not_days_or_hours_or_minutes" isEnabledByDefault="true" lang="OCLpivot" mode="Batch" name="sendData_timeunit_not_days_or_hours_or_minutes" severity="WARNING" statusCode="1">
                <message>Data storage time unit is invalid</message>
                <description>Please set the data storage time unit to either min or h</description>
@@ -117,43 +119,14 @@ self.maxTime.unit=TimeUnit::min]]></constraint>
          </constraints>
       </constraintProvider>
    </extension>
+      
    <extension name="dsml.validation.generated.model4datactrack" point="org.eclipse.emf.validation.constraintBindings">
-      <clientContext id="StorageClientContext">
-         <selector class="model4datactrack.validation.selectors.StorageClientSelector"/>
+      <clientContext id="ControllerCPClientContext">
+         <selector class="model4datactrack.validation.selectors.ControllerCPClientSelector"/>
       </clientContext>
-      <binding context="StorageClientContext">
-         <constraint ref="model4datactrack.validation.Model4DataCtrack.Storage.numberOfDrivers_greater_than_0"/>
-      </binding>
-      <clientContext id="StickyPolicyClientContext">
-         <selector class="model4datactrack.validation.selectors.StickyPolicyClientSelector"/>
-      </clientContext>
-      <binding context="StickyPolicyClientContext">
-         <constraint ref="model4datactrack.validation.Model4DataCtrack.StickyPolicy.allowed_access_purpose"/>
-         <constraint ref="model4datactrack.validation.Model4DataCtrack.StickyPolicy.all_tps_in_history_given_permissions"/>
-      </binding>
-      <clientContext id="SSMProcessorClientContext">
-         <selector class="model4datactrack.validation.selectors.SSMProcessorClientSelector"/>
-      </clientContext>
-      <binding context="SSMProcessorClientContext">
-         <constraint ref="model4datactrack.validation.Model4DataCtrack.SSMProcessor.SSMProccessor_complies_GDPR"/>
-      </binding>
-      <clientContext id="consentClientContext">
-         <selector class="model4datactrack.validation.selectors.consentClientSelector"/>
-      </clientContext>
-      <binding context="consentClientContext">
-         <constraint ref="model4datactrack.validation.Model4DataCtrack.consent.consent_machine_complies_with_GDPR"/>
-      </binding>
-      <clientContext id="RackClientContext">
-         <selector class="model4datactrack.validation.selectors.RackClientSelector"/>
-      </clientContext>
-      <binding context="RackClientContext">
-         <constraint ref="model4datactrack.validation.Model4DataCtrack.Rack.no_empty_racks"/>
-      </binding>
-      <clientContext id="AccessLogClientContext">
-         <selector class="model4datactrack.validation.selectors.AccessLogClientSelector"/>
-      </clientContext>
-      <binding context="AccessLogClientContext">
-         <constraint ref="model4datactrack.validation.Model4DataCtrack.AccessLog.log_access_match_sp_access"/>
+      <binding context="ControllerCPClientContext">
+         <constraint ref="model4datactrack.validation.Model4DataCtrack.ControllerCP.newLocation_machine_not_under_sla_with_controller"/>
+         <constraint ref="model4datactrack.validation.Model4DataCtrack.ControllerCP.location1_machine_not_under_sla_with_controller"/>
       </binding>
       <clientContext id="CPUClientContext">
          <selector class="model4datactrack.validation.selectors.CPUClientSelector"/>
@@ -161,11 +134,18 @@ self.maxTime.unit=TimeUnit::min]]></constraint>
       <binding context="CPUClientContext">
          <constraint ref="model4datactrack.validation.Model4DataCtrack.CPU.cpu_cores_and_flops_greater_than_0"/>
       </binding>
-      <clientContext id="notifyClientContext">
-         <selector class="model4datactrack.validation.selectors.notifyClientSelector"/>
+      <clientContext id="eraseDataClientContext">
+         <selector class="model4datactrack.validation.selectors.eraseDataClientSelector"/>
       </clientContext>
-      <binding context="notifyClientContext">
-         <constraint ref="model4datactrack.validation.Model4DataCtrack.notify.notify_destination_machines_comply_with_GDPR"/>
+      <binding context="eraseDataClientContext">
+         <constraint ref="model4datactrack.validation.Model4DataCtrack.eraseData.machine_contains_data_to_erase"/>
+         <constraint ref="model4datactrack.validation.Model4DataCtrack.eraseData.eraseData_destination_machines_comply_with_GDPR"/>
+      </binding>
+      <clientContext id="SSMProcessorClientContext">
+         <selector class="model4datactrack.validation.selectors.SSMProcessorClientSelector"/>
+      </clientContext>
+      <binding context="SSMProcessorClientContext">
+         <constraint ref="model4datactrack.validation.Model4DataCtrack.SSMProcessor.SSMProccessor_complies_GDPR"/>
       </binding>
       <clientContext id="sendDataClientContext">
          <selector class="model4datactrack.validation.selectors.sendDataClientSelector"/>
@@ -174,41 +154,11 @@ self.maxTime.unit=TimeUnit::min]]></constraint>
          <constraint ref="model4datactrack.validation.Model4DataCtrack.sendData.sendData_timeunit_not_days_or_hours_or_minutes"/>
          <constraint ref="model4datactrack.validation.Model4DataCtrack.sendData.sendData_maxTime_value_greater_than_0"/>
       </binding>
-      <clientContext id="ControllerCPClientContext">
-         <selector class="model4datactrack.validation.selectors.ControllerCPClientSelector"/>
+      <clientContext id="AccessLogClientContext">
+         <selector class="model4datactrack.validation.selectors.AccessLogClientSelector"/>
       </clientContext>
-      <binding context="ControllerCPClientContext">
-         <constraint ref="model4datactrack.validation.Model4DataCtrack.ControllerCP.newLocation_machine_not_under_sla_with_controller"/>
-         <constraint ref="model4datactrack.validation.Model4DataCtrack.ControllerCP.location1_machine_not_under_sla_with_controller"/>
-         <constraint ref="model4datactrack.validation.Model4DataCtrack.ControllerCP.sourceMachine_not_under_sla_with_controller"/>
-      </binding>
-      <clientContext id="writeDataClientContext">
-         <selector class="model4datactrack.validation.selectors.writeDataClientSelector"/>
-      </clientContext>
-      <binding context="writeDataClientContext">
-         <constraint ref="model4datactrack.validation.Model4DataCtrack.writeData.no_empty_write_fields"/>
-         <constraint ref="model4datactrack.validation.Model4DataCtrack.writeData.writeData_timeunit_not_days_or_hours_or_minutes"/>
-      </binding>
-      <clientContext id="rectifyDataClientContext">
-         <selector class="model4datactrack.validation.selectors.rectifyDataClientSelector"/>
-      </clientContext>
-      <binding context="rectifyDataClientContext">
-         <constraint ref="model4datactrack.validation.Model4DataCtrack.rectifyData.no_empty_rectify_fields"/>
-      </binding>
-      <clientContext id="newDataClientContext">
-         <selector class="model4datactrack.validation.selectors.newDataClientSelector"/>
-      </clientContext>
-      <binding context="newDataClientContext">
-         <constraint ref="model4datactrack.validation.Model4DataCtrack.newData.no_empty_newData_fields"/>
-         <constraint ref="model4datactrack.validation.Model4DataCtrack.newData.machine_contains_data_to_rectify"/>
-         <constraint ref="model4datactrack.validation.Model4DataCtrack.newData.newData_destination_machines_comply_with_GDPR"/>
-      </binding>
-      <clientContext id="upDateClientContext">
-         <selector class="model4datactrack.validation.selectors.upDateClientSelector"/>
-      </clientContext>
-      <binding context="upDateClientContext">
-         <constraint ref="model4datactrack.validation.Model4DataCtrack.upDate.machine_contains_data_to_update"/>
-         <constraint ref="model4datactrack.validation.Model4DataCtrack.upDate.upDate_destination_machines_comply_with_GDPR"/>
+      <binding context="AccessLogClientContext">
+         <constraint ref="model4datactrack.validation.Model4DataCtrack.AccessLog.log_access_match_sp_access"/>
       </binding>
       <clientContext id="subscribeClientContext">
          <selector class="model4datactrack.validation.selectors.subscribeClientSelector"/>
@@ -218,18 +168,71 @@ self.maxTime.unit=TimeUnit::min]]></constraint>
          <constraint ref="model4datactrack.validation.Model4DataCtrack.subscribe.machine_contains_data_to_subscribe_to"/>
          <constraint ref="model4datactrack.validation.Model4DataCtrack.subscribe.subscribe_destination_machines_comply_with_GDPR"/>
       </binding>
+      <clientContext id="rectifyDataClientContext">
+         <selector class="model4datactrack.validation.selectors.rectifyDataClientSelector"/>
+      </clientContext>
+      <binding context="rectifyDataClientContext">
+         <constraint ref="model4datactrack.validation.Model4DataCtrack.rectifyData.no_empty_rectify_fields"/>
+      </binding>
+      <clientContext id="RackClientContext">
+         <selector class="model4datactrack.validation.selectors.RackClientSelector"/>
+      </clientContext>
+      <binding context="RackClientContext">
+         <constraint ref="model4datactrack.validation.Model4DataCtrack.Rack.no_empty_racks"/>
+      </binding>
+      <clientContext id="writeDataClientContext">
+         <selector class="model4datactrack.validation.selectors.writeDataClientSelector"/>
+      </clientContext>
+      <binding context="writeDataClientContext">
+         <constraint ref="model4datactrack.validation.Model4DataCtrack.writeData.no_empty_write_fields"/>
+         <constraint ref="model4datactrack.validation.Model4DataCtrack.writeData.writeData_timeunit_not_days_or_hours_or_minutes"/>
+      </binding>
+      <clientContext id="StickyPolicyClientContext">
+         <selector class="model4datactrack.validation.selectors.StickyPolicyClientSelector"/>
+      </clientContext>
+      <binding context="StickyPolicyClientContext">
+         <constraint ref="model4datactrack.validation.Model4DataCtrack.StickyPolicy.allowed_access_purpose"/>
+         <constraint ref="model4datactrack.validation.Model4DataCtrack.StickyPolicy.all_tps_in_history_given_permissions"/>
+      </binding>
       <clientContext id="permissionClientContext">
          <selector class="model4datactrack.validation.selectors.permissionClientSelector"/>
       </clientContext>
       <binding context="permissionClientContext">
          <constraint ref="model4datactrack.validation.Model4DataCtrack.permission.no_access_permission_given_without_user_consent"/>
       </binding>
-      <clientContext id="eraseDataClientContext">
-         <selector class="model4datactrack.validation.selectors.eraseDataClientSelector"/>
+      <clientContext id="newDataClientContext">
+         <selector class="model4datactrack.validation.selectors.newDataClientSelector"/>
       </clientContext>
-      <binding context="eraseDataClientContext">
-         <constraint ref="model4datactrack.validation.Model4DataCtrack.eraseData.machine_contains_data_to_erase"/>
-         <constraint ref="model4datactrack.validation.Model4DataCtrack.eraseData.eraseData_destination_machines_comply_with_GDPR"/>
+      <binding context="newDataClientContext">
+         <constraint ref="model4datactrack.validation.Model4DataCtrack.newData.no_empty_newData_fields"/>
+         <constraint ref="model4datactrack.validation.Model4DataCtrack.newData.machine_contains_data_to_rectify"/>
+         <constraint ref="model4datactrack.validation.Model4DataCtrack.newData.newData_destination_machines_comply_with_GDPR"/>
+      </binding>
+      <clientContext id="consentClientContext">
+         <selector class="model4datactrack.validation.selectors.consentClientSelector"/>
+      </clientContext>
+      <binding context="consentClientContext">
+         <constraint ref="model4datactrack.validation.Model4DataCtrack.consent.consent_machine_complies_with_GDPR"/>
+      </binding>
+      <clientContext id="notifyClientContext">
+         <selector class="model4datactrack.validation.selectors.notifyClientSelector"/>
+      </clientContext>
+      <binding context="notifyClientContext">
+         <constraint ref="model4datactrack.validation.Model4DataCtrack.notify.notify_destination_machines_comply_with_GDPR"/>
+      </binding>
+      <clientContext id="upDateClientContext">
+         <selector class="model4datactrack.validation.selectors.upDateClientSelector"/>
+      </clientContext>
+      <binding context="upDateClientContext">
+         <constraint ref="model4datactrack.validation.Model4DataCtrack.upDate.machine_contains_data_to_update"/>
+         <constraint ref="model4datactrack.validation.Model4DataCtrack.upDate.upDate_destination_machines_comply_with_GDPR"/>
+      </binding>
+      <clientContext id="StorageClientContext">
+         <selector class="model4datactrack.validation.selectors.StorageClientSelector"/>
+      </clientContext>
+      <binding context="StorageClientContext">
+         <constraint ref="model4datactrack.validation.Model4DataCtrack.Storage.numberOfDrivers_greater_than_0"/>
       </binding>
    </extension>
+   
 </plugin>
