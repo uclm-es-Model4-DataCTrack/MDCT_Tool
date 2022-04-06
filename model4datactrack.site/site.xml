@@ -1,3 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
+   <feature url="features/model4datactrack.feature_1.0.0.202204061334.jar" id="model4datactrack.feature" version="1.0.0.202204061334">
+      <category name="model4datactrack.category"/>
+   </feature>
+   <category-def name="model4datactrack.category" label="M4DCT Modeling"/>
 </site>
