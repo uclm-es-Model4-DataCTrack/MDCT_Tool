@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/model4datactrack.feature_1.0.0.202204071321.jar" id="model4datactrack.feature" version="1.0.0.202204071321">
-      <category name="m4dct.category"/>
+   <feature url="features/model4datactrack.feature_1.0.0.202204071746.jar" id="model4datactrack.feature" version="1.0.0.202204071746">
+      <category name="model4datactrack.category"/>
    </feature>
-   <category-def name="m4dct.category" label="M4DCT Modeling"/>
+   <category-def name="model4datactrack.category" label="model4datactrack modeling"/>
    <repository-reference location="http://download.eclipse.org/modeling/mdt/papyrus/updates/releases/2021-09/" enabled="true" />
 </site>

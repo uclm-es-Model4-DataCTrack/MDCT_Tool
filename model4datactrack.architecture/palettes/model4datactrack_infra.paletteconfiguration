@@ -219,5 +219,5 @@
       </elementDescriptors>
     </ownedConfigurations>
   </drawerConfigurations>
-  <requiredProfiles>Model4DataCtrack</requiredProfiles>
+  <requiredProfiles>model4datactrack.profile</requiredProfiles>
 </paletteconfiguration:PaletteConfiguration>

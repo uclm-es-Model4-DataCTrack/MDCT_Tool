@@ -23,7 +23,7 @@ public class M4DCTModelCreationCommand extends ModelCreationCommandBase{
 		super.initializeModel(owner);
 		Package packageOwner = (Package) owner;
 		// Retrieve model4datactrack profile and apply it
-		Profile m4dctProfile = (Profile) PackageUtil.loadPackage(URI.createURI("pathmap://MODEL4DATACTRACK_PROFILE/Model4DataCTrack.profile.uml"), owner.eResource().getResourceSet());
+		Profile m4dctProfile = (Profile) PackageUtil.loadPackage(URI.createURI("pathmap://MODEL4DATACTRACK_PROFILE/model4datactrack.profile.uml"), owner.eResource().getResourceSet());
 		if (m4dctProfile != null) {
 			PackageUtil.applyProfile(packageOwner, m4dctProfile, true);
 		}

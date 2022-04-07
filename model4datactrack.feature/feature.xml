@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="model4datactrack.feature"
-      label="M4DCT Feature"
+      label="MDCT Tool"
       version="1.0.0.qualifier">
 
    <description url="http://www.example.com/description">
@@ -17,7 +17,7 @@
    </license>
 
    <plugin
-         id="Model4DataCTrack"
+         id="org.eclipse.papyrus.dsml.validation"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -25,13 +25,6 @@
 
    <plugin
          id="model4datactrack.architecture"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="model4datactrack.examples"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -52,7 +45,14 @@
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.papyrus.dsml.validation"
+         id="model4datactrack.profile"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="model4datactrack.examples"
          download-size="0"
          install-size="0"
          version="0.0.0"

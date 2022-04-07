@@ -120,6 +120,6 @@
       <palettes xmi:type="paletteconfiguration:PaletteConfiguration" href="platform:/plugin/model4datactrack.architecture/palettes/model4datactrack_inter.paletteconfiguration#/"/>
     </representationKinds>
     <metamodel xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
-    <profiles xmi:type="ecore:EPackage" href="https://www.model4datactrack.com/Model4DataCTrack/1#/"/>
+    <profiles xmi:type="ecore:EPackage" href="https://www.model4datactrack.com/model4datactrack/1#/"/>
   </contexts>
 </architecture:ArchitectureDomain>

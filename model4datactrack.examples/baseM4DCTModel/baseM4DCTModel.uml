@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:Model4DataCtrack="https://www.model4datactrack.com/Model4DataCTrack/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:model4datactrackprofile="https://www.model4datactrack.com/model4datactrack/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
   <uml:Model xmi:id="_zfh0ILTyEeyCk4LB7zxdvg" name="baseM4DCTModel">
     <packagedElement xmi:type="uml:Interaction" xmi:id="_zsNlQLTyEeyCk4LB7zxdvg" name="BaseInter">
       <lifeline xmi:type="uml:Lifeline" xmi:id="_wSeXYLT0EeyCk4LB7zxdvg" name="DataSubject" coveredBy="_nrQQYLWYEeyuVM-CkpEDgA _wkRfgLWYEeyuVM-CkpEDgA _z4g3crWYEeyuVM-CkpEDgA _241N0LWYEeyuVM-CkpEDgA _24_l4LWYEeyuVM-CkpEDgA _QLiBILWZEeyuVM-CkpEDgA _QLjPQLWZEeyuVM-CkpEDgA _wWz10LWZEeyuVM-CkpEDgA _5tobQLWZEeyuVM-CkpEDgA _5tppYLWZEeyuVM-CkpEDgA"/>
@@ -108,101 +108,101 @@
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_zkM4wLTyEeyCk4LB7zxdvg">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zkRxQLTyEeyCk4LB7zxdvg" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="https://www.model4datactrack.com/Model4DataCTrack/1#/"/>
+        <references xmi:type="ecore:EPackage" href="https://www.model4datactrack.com/model4datactrack/1#/"/>
       </eAnnotations>
-      <appliedProfile xmi:type="uml:Profile" href="pathmap://MODEL4DATACTRACK_PROFILE/Model4DataCTrack.profile.uml#_y17KgDuxEeyh_cZcIVzzKg"/>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://MODEL4DATACTRACK_PROFILE/model4datactrack.profile.uml#_y17KgDuxEeyh_cZcIVzzKg"/>
     </profileApplication>
   </uml:Model>
-  <Model4DataCtrack:StatelessAppCTP xmi:id="_yxvroLTzEeyCk4LB7zxdvg" base_Component="_yxudgbTzEeyCk4LB7zxdvg"/>
-  <Model4DataCtrack:StatelessAppCTP xmi:id="_yxxg0LTzEeyCk4LB7zxdvg" base_Component="_yxudgrTzEeyCk4LB7zxdvg"/>
-  <Model4DataCtrack:StatelessAppCTP xmi:id="_yxyH4LTzEeyCk4LB7zxdvg" base_Component="_yxudg7TzEeyCk4LB7zxdvg"/>
-  <Model4DataCtrack:AccessLog xmi:id="_5DldILTzEeyCk4LB7zxdvg" base_Class="_5Dk2EbTzEeyCk4LB7zxdvg" base_Component="_5Dk2EbTzEeyCk4LB7zxdvg" tp="_yxxg0LTzEeyCk4LB7zxdvg" l1="_oJL8EbT0EeyCk4LB7zxdvg" sp1="_RWqmgLT0EeyCk4LB7zxdvg" nl="_oJL8EbT0EeyCk4LB7zxdvg" nsp="_RWqmgLT0EeyCk4LB7zxdvg">
-    <O xmi:type="Model4DataCtrack:PList" xmi:id="_5DnSULTzEeyCk4LB7zxdvg" list="_wSgzoLT0EeyCk4LB7zxdvg"/>
-  </Model4DataCtrack:AccessLog>
-  <Model4DataCtrack:AccessLog xmi:id="_5DogcLTzEeyCk4LB7zxdvg" base_Class="_5Dk2ErTzEeyCk4LB7zxdvg" base_Component="_5Dk2ErTzEeyCk4LB7zxdvg" tp="_yxvroLTzEeyCk4LB7zxdvg" l1="_oJL8EbT0EeyCk4LB7zxdvg" sp1="_RWqmgLT0EeyCk4LB7zxdvg" nl="_oJL8EbT0EeyCk4LB7zxdvg" nsp="_RWqmgLT0EeyCk4LB7zxdvg">
-    <O xmi:type="Model4DataCtrack:PList" xmi:id="_EdfdwLV6Eey_IsjOPAcdbg" list="_wSgzoLT0EeyCk4LB7zxdvg"/>
-  </Model4DataCtrack:AccessLog>
-  <Model4DataCtrack:AccessLog xmi:id="_5DpukLTzEeyCk4LB7zxdvg" base_Class="_5Dk2E7TzEeyCk4LB7zxdvg" base_Component="_5Dk2E7TzEeyCk4LB7zxdvg" tp="_yxyH4LTzEeyCk4LB7zxdvg" l1="_oJL8EbT0EeyCk4LB7zxdvg" sp1="_RWqmgLT0EeyCk4LB7zxdvg" nl="_oJL8EbT0EeyCk4LB7zxdvg" nsp="_RWqmgLT0EeyCk4LB7zxdvg">
-    <O xmi:type="Model4DataCtrack:PList" xmi:id="_VzncELV6Eey_IsjOPAcdbg" list="_wSgzoLT0EeyCk4LB7zxdvg"/>
-  </Model4DataCtrack:AccessLog>
-  <Model4DataCtrack:AccessLog xmi:id="_5DqVoLTzEeyCk4LB7zxdvg" base_Class="_5Dk2FLTzEeyCk4LB7zxdvg" base_Component="_5Dk2FLTzEeyCk4LB7zxdvg" tp="_yxyH4LTzEeyCk4LB7zxdvg" l1="_oJL8EbT0EeyCk4LB7zxdvg" sp1="_RWqmgLT0EeyCk4LB7zxdvg" nl="_oJL8EbT0EeyCk4LB7zxdvg" nsp="_RWqmgLT0EeyCk4LB7zxdvg">
-    <O xmi:type="Model4DataCtrack:PList" xmi:id="_5DqVobTzEeyCk4LB7zxdvg" list="_wSgzoLT0EeyCk4LB7zxdvg"/>
-  </Model4DataCtrack:AccessLog>
-  <Model4DataCtrack:StickyPolicy xmi:id="_RWqmgLT0EeyCk4LB7zxdvg" base_Class="_RWp_cLT0EeyCk4LB7zxdvg" base_Component="_RWp_cLT0EeyCk4LB7zxdvg" controller="_wSj28LT0EeyCk4LB7zxdvg">
-    <permission xmi:type="Model4DataCtrack:PermissionPerTP" xmi:id="_RWsbsLT0EeyCk4LB7zxdvg">
-      <S xmi:type="Model4DataCtrack:PList" xmi:id="_RWsbsbT0EeyCk4LB7zxdvg" list="_wSgzoLT0EeyCk4LB7zxdvg"/>
-      <I xmi:type="Model4DataCtrack:PList" xmi:id="_mpFkYLV6Eey_IsjOPAcdbg" list="_wSgzoLT0EeyCk4LB7zxdvg"/>
+  <model4datactrackprofile:StatelessAppCTP xmi:id="_yxvroLTzEeyCk4LB7zxdvg" base_Component="_yxudgbTzEeyCk4LB7zxdvg"/>
+  <model4datactrackprofile:StatelessAppCTP xmi:id="_yxxg0LTzEeyCk4LB7zxdvg" base_Component="_yxudgrTzEeyCk4LB7zxdvg"/>
+  <model4datactrackprofile:StatelessAppCTP xmi:id="_yxyH4LTzEeyCk4LB7zxdvg" base_Component="_yxudg7TzEeyCk4LB7zxdvg"/>
+  <model4datactrackprofile:AccessLog xmi:id="_5DldILTzEeyCk4LB7zxdvg" base_Class="_5Dk2EbTzEeyCk4LB7zxdvg" base_Component="_5Dk2EbTzEeyCk4LB7zxdvg" tp="_yxxg0LTzEeyCk4LB7zxdvg" l1="_oJL8EbT0EeyCk4LB7zxdvg" sp1="_RWqmgLT0EeyCk4LB7zxdvg" nl="_oJL8EbT0EeyCk4LB7zxdvg" nsp="_RWqmgLT0EeyCk4LB7zxdvg">
+    <O xmi:type="model4datactrackprofile:PList" xmi:id="_5DnSULTzEeyCk4LB7zxdvg" list="_wSgzoLT0EeyCk4LB7zxdvg"/>
+  </model4datactrackprofile:AccessLog>
+  <model4datactrackprofile:AccessLog xmi:id="_5DogcLTzEeyCk4LB7zxdvg" base_Class="_5Dk2ErTzEeyCk4LB7zxdvg" base_Component="_5Dk2ErTzEeyCk4LB7zxdvg" tp="_yxvroLTzEeyCk4LB7zxdvg" l1="_oJL8EbT0EeyCk4LB7zxdvg" sp1="_RWqmgLT0EeyCk4LB7zxdvg" nl="_oJL8EbT0EeyCk4LB7zxdvg" nsp="_RWqmgLT0EeyCk4LB7zxdvg">
+    <O xmi:type="model4datactrackprofile:PList" xmi:id="_EdfdwLV6Eey_IsjOPAcdbg" list="_wSgzoLT0EeyCk4LB7zxdvg"/>
+  </model4datactrackprofile:AccessLog>
+  <model4datactrackprofile:AccessLog xmi:id="_5DpukLTzEeyCk4LB7zxdvg" base_Class="_5Dk2E7TzEeyCk4LB7zxdvg" base_Component="_5Dk2E7TzEeyCk4LB7zxdvg" tp="_yxyH4LTzEeyCk4LB7zxdvg" l1="_oJL8EbT0EeyCk4LB7zxdvg" sp1="_RWqmgLT0EeyCk4LB7zxdvg" nl="_oJL8EbT0EeyCk4LB7zxdvg" nsp="_RWqmgLT0EeyCk4LB7zxdvg">
+    <O xmi:type="model4datactrackprofile:PList" xmi:id="_VzncELV6Eey_IsjOPAcdbg" list="_wSgzoLT0EeyCk4LB7zxdvg"/>
+  </model4datactrackprofile:AccessLog>
+  <model4datactrackprofile:AccessLog xmi:id="_5DqVoLTzEeyCk4LB7zxdvg" base_Class="_5Dk2FLTzEeyCk4LB7zxdvg" base_Component="_5Dk2FLTzEeyCk4LB7zxdvg" tp="_yxyH4LTzEeyCk4LB7zxdvg" l1="_oJL8EbT0EeyCk4LB7zxdvg" sp1="_RWqmgLT0EeyCk4LB7zxdvg" nl="_oJL8EbT0EeyCk4LB7zxdvg" nsp="_RWqmgLT0EeyCk4LB7zxdvg">
+    <O xmi:type="model4datactrackprofile:PList" xmi:id="_5DqVobTzEeyCk4LB7zxdvg" list="_wSgzoLT0EeyCk4LB7zxdvg"/>
+  </model4datactrackprofile:AccessLog>
+  <model4datactrackprofile:StickyPolicy xmi:id="_RWqmgLT0EeyCk4LB7zxdvg" base_Class="_RWp_cLT0EeyCk4LB7zxdvg" base_Component="_RWp_cLT0EeyCk4LB7zxdvg" controller="_wSj28LT0EeyCk4LB7zxdvg">
+    <permission xmi:type="model4datactrackprofile:PermissionPerTP" xmi:id="_RWsbsLT0EeyCk4LB7zxdvg">
+      <S xmi:type="model4datactrackprofile:PList" xmi:id="_RWsbsbT0EeyCk4LB7zxdvg" list="_wSgzoLT0EeyCk4LB7zxdvg"/>
+      <I xmi:type="model4datactrackprofile:PList" xmi:id="_mpFkYLV6Eey_IsjOPAcdbg" list="_wSgzoLT0EeyCk4LB7zxdvg"/>
     </permission>
-    <owner xmi:type="Model4DataCtrack:PList" xmi:id="_pvTucLV6Eey_IsjOPAcdbg" list="_wSgzoLT0EeyCk4LB7zxdvg"/>
+    <owner xmi:type="model4datactrackprofile:PList" xmi:id="_pvTucLV6Eey_IsjOPAcdbg" list="_wSgzoLT0EeyCk4LB7zxdvg"/>
     <purpose>taxes</purpose>
     <purpose>statistical</purpose>
-    <accessHistory xmi:type="Model4DataCtrack:AccesPerTP" xmi:id="_RWsbtLT0EeyCk4LB7zxdvg" tp="_yxxg0LTzEeyCk4LB7zxdvg">
+    <accessHistory xmi:type="model4datactrackprofile:AccesPerTP" xmi:id="_RWsbtLT0EeyCk4LB7zxdvg" tp="_yxxg0LTzEeyCk4LB7zxdvg">
       <purpose>statistical</purpose>
     </accessHistory>
-    <accessHistory xmi:type="Model4DataCtrack:AccesPerTP" xmi:id="_RWsbtbT0EeyCk4LB7zxdvg" tp="_yxvroLTzEeyCk4LB7zxdvg">
+    <accessHistory xmi:type="model4datactrackprofile:AccesPerTP" xmi:id="_RWsbtbT0EeyCk4LB7zxdvg" tp="_yxvroLTzEeyCk4LB7zxdvg">
       <purpose>statistical</purpose>
     </accessHistory>
-    <accessHistory xmi:type="Model4DataCtrack:AccesPerTP" xmi:id="_RWsbtrT0EeyCk4LB7zxdvg" tp="_yxyH4LTzEeyCk4LB7zxdvg">
+    <accessHistory xmi:type="model4datactrackprofile:AccesPerTP" xmi:id="_RWsbtrT0EeyCk4LB7zxdvg" tp="_yxyH4LTzEeyCk4LB7zxdvg">
       <purpose>taxes</purpose>
     </accessHistory>
-    <accessHistory xmi:type="Model4DataCtrack:AccesPerTP" xmi:id="_RWsbt7T0EeyCk4LB7zxdvg" tp="_yxyH4LTzEeyCk4LB7zxdvg">
+    <accessHistory xmi:type="model4datactrackprofile:AccesPerTP" xmi:id="_RWsbt7T0EeyCk4LB7zxdvg" tp="_yxyH4LTzEeyCk4LB7zxdvg">
       <purpose>statistical</purpose>
     </accessHistory>
-  </Model4DataCtrack:StickyPolicy>
-  <Model4DataCtrack:Storage xmi:id="_oJL8EbT0EeyCk4LB7zxdvg" base_Component="_oJL8ELT0EeyCk4LB7zxdvg" numberOfDrivers="1" data="_29IKILT3EeyCk4LB7zxdvg">
-    <dirveCapacity xmi:type="Model4DataCtrack:Size" xmi:id="_XWESQLT2EeyCk4LB7zxdvg" value="16.0" unit="GByte"/>
-    <readBandwidth xmi:type="Model4DataCtrack:Bandwidth" xmi:id="_Y-XFwLT2EeyCk4LB7zxdvg" value="1.0" unit="Gbps"/>
-  </Model4DataCtrack:Storage>
-  <Model4DataCtrack:User xmi:id="_wSgzoLT0EeyCk4LB7zxdvg" base_Lifeline="_wSeXYLT0EeyCk4LB7zxdvg" instances="1" idUser="DataSubject"/>
-  <Model4DataCtrack:ControllerCP xmi:id="_wSj28LT0EeyCk4LB7zxdvg" base_Lifeline="_wSflgLT0EeyCk4LB7zxdvg" resourceAllocationPolicy="FIFO" idProvider="CP1" sla="_WjfwYLT3EeyCk4LB7zxdvg" accesslog="_5DldILTzEeyCk4LB7zxdvg _5DogcLTzEeyCk4LB7zxdvg _5DpukLTzEeyCk4LB7zxdvg _5DqVoLTzEeyCk4LB7zxdvg"/>
-  <Model4DataCtrack:SSMProcessor xmi:id="_wSlFELT0EeyCk4LB7zxdvg" cpu="_8VKQsLT1EeyCk4LB7zxdvg" memory="_x-h-oLT2EeyCk4LB7zxdvg" storage="_oJL8EbT0EeyCk4LB7zxdvg" base_Lifeline="_wSgMkLT0EeyCk4LB7zxdvg" sla="_WjfwYLT3EeyCk4LB7zxdvg"/>
-  <Model4DataCtrack:CPU xmi:id="_8VKQsLT1EeyCk4LB7zxdvg" base_Component="_8VF_QLT1EeyCk4LB7zxdvg" cores="4" FLOPs="3.75E9"/>
-  <Model4DataCtrack:CPU xmi:id="_NGBl0LT2EeyCk4LB7zxdvg" base_Component="_NF_woLT2EeyCk4LB7zxdvg" cores="8" FLOPs="5.0E9"/>
-  <Model4DataCtrack:Storage xmi:id="_lJzH4LT2EeyCk4LB7zxdvg" base_Component="_lJwEkLT2EeyCk4LB7zxdvg" numberOfDrivers="1">
-    <dirveCapacity xmi:type="Model4DataCtrack:Size" xmi:id="_3MVUQLV6Eey_IsjOPAcdbg" value="2.0" unit="TByte"/>
-    <readBandwidth xmi:type="Model4DataCtrack:Bandwidth" xmi:id="_7of9kLV6Eey_IsjOPAcdbg" value="500.0" unit="Gbps"/>
-  </Model4DataCtrack:Storage>
-  <Model4DataCtrack:Memory xmi:id="_x-h-oLT2EeyCk4LB7zxdvg" base_Component="_x-dtMLT2EeyCk4LB7zxdvg">
-    <capacity xmi:type="Model4DataCtrack:Size" xmi:id="_3WxOoLT2EeyCk4LB7zxdvg" value="16634.0" unit="GByte"/>
-    <latency xmi:type="Model4DataCtrack:Latency" xmi:id="_57DJQLT2EeyCk4LB7zxdvg" name="access">
-      <time xmi:type="Model4DataCtrack:Time" xmi:id="_6hjvoLT2EeyCk4LB7zxdvg" value="10.0" unit="ns"/>
+  </model4datactrackprofile:StickyPolicy>
+  <model4datactrackprofile:Storage xmi:id="_oJL8EbT0EeyCk4LB7zxdvg" base_Component="_oJL8ELT0EeyCk4LB7zxdvg" numberOfDrivers="1" data="_29IKILT3EeyCk4LB7zxdvg">
+    <dirveCapacity xmi:type="model4datactrackprofile:Size" xmi:id="_XWESQLT2EeyCk4LB7zxdvg" value="16.0" unit="GByte"/>
+    <readBandwidth xmi:type="model4datactrackprofile:Bandwidth" xmi:id="_Y-XFwLT2EeyCk4LB7zxdvg" value="1.0" unit="Gbps"/>
+  </model4datactrackprofile:Storage>
+  <model4datactrackprofile:User xmi:id="_wSgzoLT0EeyCk4LB7zxdvg" base_Lifeline="_wSeXYLT0EeyCk4LB7zxdvg" instances="1" idUser="DataSubject"/>
+  <model4datactrackprofile:ControllerCP xmi:id="_wSj28LT0EeyCk4LB7zxdvg" base_Lifeline="_wSflgLT0EeyCk4LB7zxdvg" resourceAllocationPolicy="FIFO" idProvider="CP1" sla="_WjfwYLT3EeyCk4LB7zxdvg" accesslog="_5DldILTzEeyCk4LB7zxdvg _5DogcLTzEeyCk4LB7zxdvg _5DpukLTzEeyCk4LB7zxdvg _5DqVoLTzEeyCk4LB7zxdvg"/>
+  <model4datactrackprofile:SSMProcessor xmi:id="_wSlFELT0EeyCk4LB7zxdvg" cpu="_8VKQsLT1EeyCk4LB7zxdvg" memory="_x-h-oLT2EeyCk4LB7zxdvg" storage="_oJL8EbT0EeyCk4LB7zxdvg" base_Lifeline="_wSgMkLT0EeyCk4LB7zxdvg" sla="_WjfwYLT3EeyCk4LB7zxdvg"/>
+  <model4datactrackprofile:CPU xmi:id="_8VKQsLT1EeyCk4LB7zxdvg" base_Component="_8VF_QLT1EeyCk4LB7zxdvg" cores="4" FLOPs="3.75E9"/>
+  <model4datactrackprofile:CPU xmi:id="_NGBl0LT2EeyCk4LB7zxdvg" base_Component="_NF_woLT2EeyCk4LB7zxdvg" cores="8" FLOPs="5.0E9"/>
+  <model4datactrackprofile:Storage xmi:id="_lJzH4LT2EeyCk4LB7zxdvg" base_Component="_lJwEkLT2EeyCk4LB7zxdvg" numberOfDrivers="1">
+    <dirveCapacity xmi:type="model4datactrackprofile:Size" xmi:id="_3MVUQLV6Eey_IsjOPAcdbg" value="2.0" unit="TByte"/>
+    <readBandwidth xmi:type="model4datactrackprofile:Bandwidth" xmi:id="_7of9kLV6Eey_IsjOPAcdbg" value="500.0" unit="Gbps"/>
+  </model4datactrackprofile:Storage>
+  <model4datactrackprofile:Memory xmi:id="_x-h-oLT2EeyCk4LB7zxdvg" base_Component="_x-dtMLT2EeyCk4LB7zxdvg">
+    <capacity xmi:type="model4datactrackprofile:Size" xmi:id="_3WxOoLT2EeyCk4LB7zxdvg" value="16634.0" unit="GByte"/>
+    <latency xmi:type="model4datactrackprofile:Latency" xmi:id="_57DJQLT2EeyCk4LB7zxdvg" name="access">
+      <time xmi:type="model4datactrackprofile:Time" xmi:id="_6hjvoLT2EeyCk4LB7zxdvg" value="10.0" unit="ns"/>
     </latency>
-  </Model4DataCtrack:Memory>
-  <Model4DataCtrack:Memory xmi:id="_ClX1ELT3EeyCk4LB7zxdvg" base_Component="_ClUKsLT3EeyCk4LB7zxdvg">
-    <capacity xmi:type="Model4DataCtrack:Size" xmi:id="_JEf0oLT3EeyCk4LB7zxdvg" value="32.0" unit="GByte"/>
-    <latency xmi:type="Model4DataCtrack:Latency" xmi:id="_KWvfoLT3EeyCk4LB7zxdvg" name="access">
-      <time xmi:type="Model4DataCtrack:Time" xmi:id="_K45xgLT3EeyCk4LB7zxdvg" value="13.0" unit="ns"/>
+  </model4datactrackprofile:Memory>
+  <model4datactrackprofile:Memory xmi:id="_ClX1ELT3EeyCk4LB7zxdvg" base_Component="_ClUKsLT3EeyCk4LB7zxdvg">
+    <capacity xmi:type="model4datactrackprofile:Size" xmi:id="_JEf0oLT3EeyCk4LB7zxdvg" value="32.0" unit="GByte"/>
+    <latency xmi:type="model4datactrackprofile:Latency" xmi:id="_KWvfoLT3EeyCk4LB7zxdvg" name="access">
+      <time xmi:type="model4datactrackprofile:Time" xmi:id="_K45xgLT3EeyCk4LB7zxdvg" value="13.0" unit="ns"/>
     </latency>
-  </Model4DataCtrack:Memory>
-  <Model4DataCtrack:SSMProcessor xmi:id="_N_B08LT3EeyCk4LB7zxdvg" base_Component="_N-_YsLT3EeyCk4LB7zxdvg" cpu="_8VKQsLT1EeyCk4LB7zxdvg" memory="_x-h-oLT2EeyCk4LB7zxdvg" storage="_oJL8EbT0EeyCk4LB7zxdvg" sla="_WjfwYLT3EeyCk4LB7zxdvg"/>
-  <Model4DataCtrack:SLA xmi:id="_WjfwYLT3EeyCk4LB7zxdvg" base_Class="_WjcGALT3EeyCk4LB7zxdvg" base_Component="_WjcGALT3EeyCk4LB7zxdvg" recipients="_yxvroLTzEeyCk4LB7zxdvg _yxyH4LTzEeyCk4LB7zxdvg _yxxg0LTzEeyCk4LB7zxdvg">
+  </model4datactrackprofile:Memory>
+  <model4datactrackprofile:SSMProcessor xmi:id="_N_B08LT3EeyCk4LB7zxdvg" base_Component="_N-_YsLT3EeyCk4LB7zxdvg" cpu="_8VKQsLT1EeyCk4LB7zxdvg" memory="_x-h-oLT2EeyCk4LB7zxdvg" storage="_oJL8EbT0EeyCk4LB7zxdvg" sla="_WjfwYLT3EeyCk4LB7zxdvg"/>
+  <model4datactrackprofile:SLA xmi:id="_WjfwYLT3EeyCk4LB7zxdvg" base_Class="_WjcGALT3EeyCk4LB7zxdvg" base_Component="_WjcGALT3EeyCk4LB7zxdvg" recipients="_yxvroLTzEeyCk4LB7zxdvg _yxyH4LTzEeyCk4LB7zxdvg _yxxg0LTzEeyCk4LB7zxdvg">
     <subjectMatter>M4DCT base example</subjectMatter>
-    <processingDuration xmi:type="Model4DataCtrack:Time" xmi:id="_dqLfMLT3EeyCk4LB7zxdvg" value="100.0" unit="days"/>
+    <processingDuration xmi:type="model4datactrackprofile:Time" xmi:id="_dqLfMLT3EeyCk4LB7zxdvg" value="100.0" unit="days"/>
     <processingNature>M4DCT base example</processingNature>
     <processingPurpose>M4DCT base example</processingPurpose>
     <processingInstructions>M4DCT base example</processingInstructions>
-  </Model4DataCtrack:SLA>
-  <Model4DataCtrack:TrustedSCM xmi:id="_on5J8LT3EeyCk4LB7zxdvg" base_Component="_on1fkLT3EeyCk4LB7zxdvg" cpu="_NGBl0LT2EeyCk4LB7zxdvg" memory="_ClX1ELT3EeyCk4LB7zxdvg" storage="_lJzH4LT2EeyCk4LB7zxdvg" applications="_yxvroLTzEeyCk4LB7zxdvg _yxxg0LTzEeyCk4LB7zxdvg _yxyH4LTzEeyCk4LB7zxdvg" purpose="M4DCT base example"/>
-  <Model4DataCtrack:UntrustedSCM xmi:id="_v2LVkLT3EeyCk4LB7zxdvg" base_Component="_v2HrMLT3EeyCk4LB7zxdvg" cpu="_NGBl0LT2EeyCk4LB7zxdvg" memory="_x-h-oLT2EeyCk4LB7zxdvg" storage="_lJzH4LT2EeyCk4LB7zxdvg" applications="_yxvroLTzEeyCk4LB7zxdvg _yxxg0LTzEeyCk4LB7zxdvg _yxyH4LTzEeyCk4LB7zxdvg" purpose="M4DCT base example"/>
-  <Model4DataCtrack:Data xmi:id="_29IKILT3EeyCk4LB7zxdvg" base_Class="_29D4sLT3EeyCk4LB7zxdvg" appliedPolicy="_RWqmgLT0EeyCk4LB7zxdvg" base_Component="_29D4sLT3EeyCk4LB7zxdvg">
-    <archive xmi:type="Model4DataCtrack:DataArchive" xmi:id="_6S_5wLT3EeyCk4LB7zxdvg" idData="DataSubject1Data">
-      <contents xmi:type="Model4DataCtrack:DataField" xmi:id="_6lIyoLT3EeyCk4LB7zxdvg" value="M4DCT base example"/>
+  </model4datactrackprofile:SLA>
+  <model4datactrackprofile:TrustedSCM xmi:id="_on5J8LT3EeyCk4LB7zxdvg" base_Component="_on1fkLT3EeyCk4LB7zxdvg" cpu="_NGBl0LT2EeyCk4LB7zxdvg" memory="_ClX1ELT3EeyCk4LB7zxdvg" storage="_lJzH4LT2EeyCk4LB7zxdvg" applications="_yxvroLTzEeyCk4LB7zxdvg _yxxg0LTzEeyCk4LB7zxdvg _yxyH4LTzEeyCk4LB7zxdvg" purpose="M4DCT base example"/>
+  <model4datactrackprofile:UntrustedSCM xmi:id="_v2LVkLT3EeyCk4LB7zxdvg" base_Component="_v2HrMLT3EeyCk4LB7zxdvg" cpu="_NGBl0LT2EeyCk4LB7zxdvg" memory="_x-h-oLT2EeyCk4LB7zxdvg" storage="_lJzH4LT2EeyCk4LB7zxdvg" applications="_yxvroLTzEeyCk4LB7zxdvg _yxxg0LTzEeyCk4LB7zxdvg _yxyH4LTzEeyCk4LB7zxdvg" purpose="M4DCT base example"/>
+  <model4datactrackprofile:Data xmi:id="_29IKILT3EeyCk4LB7zxdvg" base_Class="_29D4sLT3EeyCk4LB7zxdvg" appliedPolicy="_RWqmgLT0EeyCk4LB7zxdvg" base_Component="_29D4sLT3EeyCk4LB7zxdvg">
+    <archive xmi:type="model4datactrackprofile:DataArchive" xmi:id="_6S_5wLT3EeyCk4LB7zxdvg" idData="DataSubject1Data">
+      <contents xmi:type="model4datactrackprofile:DataField" xmi:id="_6lIyoLT3EeyCk4LB7zxdvg" value="M4DCT base example"/>
     </archive>
-  </Model4DataCtrack:Data>
-  <Model4DataCtrack:StorageRack xmi:id="_7tRC4LT4EeyCk4LB7zxdvg" base_Component="_7tEOkLT4EeyCk4LB7zxdvg" machinesPerBoard="4" boards="4" machineType="_wSlFELT0EeyCk4LB7zxdvg">
-    <network xmi:type="Model4DataCtrack:Bandwidth" xmi:id="_BUCeILT5EeyCk4LB7zxdvg" value="10.0" unit="Gbps"/>
-  </Model4DataCtrack:StorageRack>
-  <Model4DataCtrack:ComputingRack xmi:id="_DoRxoLT5EeyCk4LB7zxdvg" base_Component="_DoNgMLT5EeyCk4LB7zxdvg" machinesPerBoard="2" boards="4" machineType="_on5J8LT3EeyCk4LB7zxdvg">
-    <network xmi:type="Model4DataCtrack:Bandwidth" xmi:id="_Ggc4oLT5EeyCk4LB7zxdvg" value="10.0" unit="Gbps"/>
-  </Model4DataCtrack:ComputingRack>
-  <Model4DataCtrack:Infrastructure xmi:id="_KXFzALT5EeyCk4LB7zxdvg" base_Component="_KXCIoLT5EeyCk4LB7zxdvg" cloudProvider="_wSj28LT0EeyCk4LB7zxdvg">
-    <network xmi:type="Model4DataCtrack:Bandwidth" xmi:id="_LVq7ILT5EeyCk4LB7zxdvg" value="10.0" unit="Gbps"/>
-    <datacenterelements xmi:type="Model4DataCtrack:DataCenterElement" xmi:id="_OEza4LT5EeyCk4LB7zxdvg" numberOfDataCenters="1" dataCenterType="_SQbt0LT5EeyCk4LB7zxdvg"/>
-  </Model4DataCtrack:Infrastructure>
-  <Model4DataCtrack:DataCenter xmi:id="_SQbt0LT5EeyCk4LB7zxdvg" base_Component="_SQZRkLT5EeyCk4LB7zxdvg">
-    <network xmi:type="Model4DataCtrack:Bandwidth" xmi:id="_U0IZoLT5EeyCk4LB7zxdvg" value="10.0" unit="Gbps"/>
-    <rack xmi:type="Model4DataCtrack:RackElement" xmi:id="_V4R-QLT5EeyCk4LB7zxdvg" numberOfRacks="2" rackType="_7tRC4LT4EeyCk4LB7zxdvg"/>
-    <rack xmi:type="Model4DataCtrack:RackElement" xmi:id="_Yhn_ELT5EeyCk4LB7zxdvg" numberOfRacks="2" rackType="_DoRxoLT5EeyCk4LB7zxdvg"/>
-  </Model4DataCtrack:DataCenter>
-  <Model4DataCtrack:StatelessAppCTP xmi:id="_qzLJwLV7Eey_IsjOPAcdbg" base_Lifeline="_qzHfYLV7Eey_IsjOPAcdbg"/>
+  </model4datactrackprofile:Data>
+  <model4datactrackprofile:StorageRack xmi:id="_7tRC4LT4EeyCk4LB7zxdvg" base_Component="_7tEOkLT4EeyCk4LB7zxdvg" machinesPerBoard="4" boards="4" machineType="_wSlFELT0EeyCk4LB7zxdvg">
+    <network xmi:type="model4datactrackprofile:Bandwidth" xmi:id="_BUCeILT5EeyCk4LB7zxdvg" value="10.0" unit="Gbps"/>
+  </model4datactrackprofile:StorageRack>
+  <model4datactrackprofile:ComputingRack xmi:id="_DoRxoLT5EeyCk4LB7zxdvg" base_Component="_DoNgMLT5EeyCk4LB7zxdvg" machinesPerBoard="2" boards="4" machineType="_on5J8LT3EeyCk4LB7zxdvg">
+    <network xmi:type="model4datactrackprofile:Bandwidth" xmi:id="_Ggc4oLT5EeyCk4LB7zxdvg" value="10.0" unit="Gbps"/>
+  </model4datactrackprofile:ComputingRack>
+  <model4datactrackprofile:Infrastructure xmi:id="_KXFzALT5EeyCk4LB7zxdvg" base_Component="_KXCIoLT5EeyCk4LB7zxdvg" cloudProvider="_wSj28LT0EeyCk4LB7zxdvg">
+    <network xmi:type="model4datactrackprofile:Bandwidth" xmi:id="_LVq7ILT5EeyCk4LB7zxdvg" value="10.0" unit="Gbps"/>
+    <datacenterelements xmi:type="model4datactrackprofile:DataCenterElement" xmi:id="_OEza4LT5EeyCk4LB7zxdvg" numberOfDataCenters="1" dataCenterType="_SQbt0LT5EeyCk4LB7zxdvg"/>
+  </model4datactrackprofile:Infrastructure>
+  <model4datactrackprofile:DataCenter xmi:id="_SQbt0LT5EeyCk4LB7zxdvg" base_Component="_SQZRkLT5EeyCk4LB7zxdvg">
+    <network xmi:type="model4datactrackprofile:Bandwidth" xmi:id="_U0IZoLT5EeyCk4LB7zxdvg" value="10.0" unit="Gbps"/>
+    <rack xmi:type="model4datactrackprofile:RackElement" xmi:id="_V4R-QLT5EeyCk4LB7zxdvg" numberOfRacks="2" rackType="_7tRC4LT4EeyCk4LB7zxdvg"/>
+    <rack xmi:type="model4datactrackprofile:RackElement" xmi:id="_Yhn_ELT5EeyCk4LB7zxdvg" numberOfRacks="2" rackType="_DoRxoLT5EeyCk4LB7zxdvg"/>
+  </model4datactrackprofile:DataCenter>
+  <model4datactrackprofile:StatelessAppCTP xmi:id="_qzLJwLV7Eey_IsjOPAcdbg" base_Lifeline="_qzHfYLV7Eey_IsjOPAcdbg"/>
 </xmi:XMI>

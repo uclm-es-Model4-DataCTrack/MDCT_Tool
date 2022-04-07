@@ -1,93 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <elementtypesconfigurations:ElementTypeSetConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:applystereotypeadvice="http://www.eclipse.org/papyrus/uml/types/applystereotypeadvice/1.1" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" xmi:id="__hifcLQsEeyF9p78HgeJtA" identifier="migelangel_1649086587617_Semantic" name="migelangel_1649086587617_Semantic" metamodelNsURI="migelangel_1649086587617_Semantic">
   <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_WHeKgLQtEeyF9p78HgeJtA" identifier="mdctinfra_040420221730.component.tool.component_1649086739216_ASAC" target="_WHdjcLQtEeyF9p78HgeJtA">
-    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_WHeKgbQtEeyF9p78HgeJtA" stereotypeQualifiedName="Model4DataCtrack::AccessLog" updateName="true">
-      <requiredProfiles>Model4DataCtrack</requiredProfiles>
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_WHeKgbQtEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::AccessLog" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
     </stereotypesToApply>
   </adviceBindingsConfigurations>
   <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_W-mm0rQtEeyF9p78HgeJtA" identifier="mdctinfra_040420221730.component.tool.component_1649086744995_ASAC" target="_W-l_wLQtEeyF9p78HgeJtA">
-    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_W-mm07QtEeyF9p78HgeJtA" stereotypeQualifiedName="Model4DataCtrack::CPU" updateName="true">
-      <requiredProfiles>Model4DataCtrack</requiredProfiles>
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_W-mm07QtEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::CPU" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
     </stereotypesToApply>
   </adviceBindingsConfigurations>
   <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_Xz2z1LQtEeyF9p78HgeJtA" identifier="mdctinfra_040420221730.component.tool.component_1649086750583_ASAC" target="_Xz2z0LQtEeyF9p78HgeJtA">
-    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_Xz2z1bQtEeyF9p78HgeJtA" stereotypeQualifiedName="Model4DataCtrack::ComputingRack" updateName="true">
-      <requiredProfiles>Model4DataCtrack</requiredProfiles>
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_Xz2z1bQtEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::ComputingRack" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
     </stereotypesToApply>
   </adviceBindingsConfigurations>
   <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_Yjnc1LQtEeyF9p78HgeJtA" identifier="mdctinfra_040420221730.component.tool.component_1649086755596_ASAC" target="_Yjnc0LQtEeyF9p78HgeJtA">
-    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_Yjnc1bQtEeyF9p78HgeJtA" stereotypeQualifiedName="Model4DataCtrack::Data" updateName="true">
-      <requiredProfiles>Model4DataCtrack</requiredProfiles>
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_Yjnc1bQtEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::Data" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
     </stereotypesToApply>
   </adviceBindingsConfigurations>
   <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_ZaPi1LQtEeyF9p78HgeJtA" identifier="mdctinfra_040420221730.component.tool.component_1649086761322_ASAC" target="_ZaPi0LQtEeyF9p78HgeJtA">
-    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_ZaPi1bQtEeyF9p78HgeJtA" stereotypeQualifiedName="Model4DataCtrack::DataCenter" updateName="true">
-      <requiredProfiles>Model4DataCtrack</requiredProfiles>
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_ZaPi1bQtEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::DataCenter" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
     </stereotypesToApply>
   </adviceBindingsConfigurations>
   <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_bcl1E7QtEeyF9p78HgeJtA" identifier="mdctinfra_040420221730.component.tool.component_1649086774989_ASAC" target="_bclOALQtEeyF9p78HgeJtA">
-    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_bcl1FLQtEeyF9p78HgeJtA" stereotypeQualifiedName="Model4DataCtrack::Infrastructure" updateName="true">
-      <requiredProfiles>Model4DataCtrack</requiredProfiles>
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_bcl1FLQtEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::Infrastructure" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
     </stereotypesToApply>
   </adviceBindingsConfigurations>
   <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_chLelLQtEeyF9p78HgeJtA" identifier="mdctinfra_040420221730.component.tool.component_1649086782185_ASAC" target="_chLekLQtEeyF9p78HgeJtA">
-    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_chLelbQtEeyF9p78HgeJtA" stereotypeQualifiedName="Model4DataCtrack::Memory" updateName="true">
-      <requiredProfiles>Model4DataCtrack</requiredProfiles>
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_chLelbQtEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::Memory" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
     </stereotypesToApply>
   </adviceBindingsConfigurations>
   <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_ecEd9LQtEeyF9p78HgeJtA" identifier="mdctinfra_040420221730.component.tool.component_1649086795076_ASAC" target="_ecEd8LQtEeyF9p78HgeJtA">
-    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_ecEd9bQtEeyF9p78HgeJtA" stereotypeQualifiedName="Model4DataCtrack::Rack" updateName="true">
-      <requiredProfiles>Model4DataCtrack</requiredProfiles>
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_ecEd9bQtEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::Rack" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
     </stereotypesToApply>
   </adviceBindingsConfigurations>
   <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_fNn2tLQtEeyF9p78HgeJtA" identifier="mdctinfra_040420221730.component.tool.component_1649086800269_ASAC" target="_fNn2sLQtEeyF9p78HgeJtA">
-    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_fNn2tbQtEeyF9p78HgeJtA" stereotypeQualifiedName="Model4DataCtrack::SLA" updateName="true">
-      <requiredProfiles>Model4DataCtrack</requiredProfiles>
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_fNn2tbQtEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::SLA" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
     </stereotypesToApply>
   </adviceBindingsConfigurations>
   <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_gEOHg7QtEeyF9p78HgeJtA" identifier="mdctinfra_040420221730.component.tool.component_1649086805981_ASAC" target="_gENgcLQtEeyF9p78HgeJtA">
-    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_gEOHhLQtEeyF9p78HgeJtA" stereotypeQualifiedName="Model4DataCtrack::SSMProcessor" updateName="true">
-      <requiredProfiles>Model4DataCtrack</requiredProfiles>
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_gEOHhLQtEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::SSMProcessor" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
     </stereotypesToApply>
   </adviceBindingsConfigurations>
   <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_gxfdNLQtEeyF9p78HgeJtA" identifier="mdctinfra_040420221730.component.tool.component_1649086810743_ASAC" target="_gxfdMLQtEeyF9p78HgeJtA">
-    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_gxfdNbQtEeyF9p78HgeJtA" stereotypeQualifiedName="Model4DataCtrack::StatelessAppCTP" updateName="true">
-      <requiredProfiles>Model4DataCtrack</requiredProfiles>
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_gxfdNbQtEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::StatelessAppCTP" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
     </stereotypesToApply>
   </adviceBindingsConfigurations>
   <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_hl_cQ7QtEeyF9p78HgeJtA" identifier="mdctinfra_040420221730.component.tool.component_1649086816231_ASAC" target="_hl-1MLQtEeyF9p78HgeJtA">
-    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_hl_cRLQtEeyF9p78HgeJtA" stereotypeQualifiedName="Model4DataCtrack::StatelessComputationMachine" updateName="true">
-      <requiredProfiles>Model4DataCtrack</requiredProfiles>
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_hl_cRLQtEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::StatelessComputationMachine" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
     </stereotypesToApply>
   </adviceBindingsConfigurations>
   <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_ij1klLQtEeyF9p78HgeJtA" identifier="mdctinfra_040420221730.component.tool.component_1649086822731_ASAC" target="_ij1kkLQtEeyF9p78HgeJtA">
-    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_ij1klbQtEeyF9p78HgeJtA" stereotypeQualifiedName="Model4DataCtrack::StickyPolicy" updateName="true">
-      <requiredProfiles>Model4DataCtrack</requiredProfiles>
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_ij1klbQtEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::StickyPolicy" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
     </stereotypesToApply>
   </adviceBindingsConfigurations>
   <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_jfDPpLQtEeyF9p78HgeJtA" identifier="mdctinfra_040420221730.component.tool.component_1649086828944_ASAC" target="_jfDPoLQtEeyF9p78HgeJtA">
-    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_jfDPpbQtEeyF9p78HgeJtA" stereotypeQualifiedName="Model4DataCtrack::Storage" updateName="true">
-      <requiredProfiles>Model4DataCtrack</requiredProfiles>
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_jfDPpbQtEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::Storage" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
     </stereotypesToApply>
   </adviceBindingsConfigurations>
   <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_kYPhdLQtEeyF9p78HgeJtA" identifier="mdctinfra_040420221730.component.tool.component_1649086834935_ASAC" target="_kYPhcLQtEeyF9p78HgeJtA">
-    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_kYPhdbQtEeyF9p78HgeJtA" stereotypeQualifiedName="Model4DataCtrack::StorageRack" updateName="true">
-      <requiredProfiles>Model4DataCtrack</requiredProfiles>
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_kYPhdbQtEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::StorageRack" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
     </stereotypesToApply>
   </adviceBindingsConfigurations>
   <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_lNzQdLQtEeyF9p78HgeJtA" identifier="mdctinfra_040420221730.component.tool.component_1649086840555_ASAC" target="_lNzQcLQtEeyF9p78HgeJtA">
-    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_lNzQdbQtEeyF9p78HgeJtA" stereotypeQualifiedName="Model4DataCtrack::TrustedSCM" updateName="true">
-      <requiredProfiles>Model4DataCtrack</requiredProfiles>
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_lNzQdbQtEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::TrustedSCM" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
     </stereotypesToApply>
   </adviceBindingsConfigurations>
   <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_l2QXlLQtEeyF9p78HgeJtA" identifier="mdctinfra_040420221730.component.tool.component_1649086844797_ASAC" target="_l2QXkLQtEeyF9p78HgeJtA">
-    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_l2QXlbQtEeyF9p78HgeJtA" stereotypeQualifiedName="Model4DataCtrack::UntrustedSCM" updateName="true">
-      <requiredProfiles>Model4DataCtrack</requiredProfiles>
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_l2QXlbQtEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::UntrustedSCM" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
     </stereotypesToApply>
   </adviceBindingsConfigurations>
   <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_mhY_QbQtEeyF9p78HgeJtA" identifier="mdctinfra_040420221730.component.tool.component_1649086849300_ASAC" target="_mhYYMLQtEeyF9p78HgeJtA">
-    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_mhY_QrQtEeyF9p78HgeJtA" stereotypeQualifiedName="Model4DataCtrack::User" updateName="true">
-      <requiredProfiles>Model4DataCtrack</requiredProfiles>
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_mhY_QrQtEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::User" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
     </stereotypesToApply>
   </adviceBindingsConfigurations>
   <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_WHdjcLQtEeyF9p78HgeJtA" identifier="mdctinfra_040420221730.component.tool.component_1649086739216" name="AccessLog (Component)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
