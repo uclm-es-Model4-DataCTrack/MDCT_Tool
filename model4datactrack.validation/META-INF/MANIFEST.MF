@@ -8,4 +8,4 @@ Bundle-RequiredExecutionEnvironment: JavaSE-16
 Require-Bundle: org.eclipse.emf.validation,
  org.eclipse.papyrus.uml.service.validation,
  org.eclipse.uml2.uml,
- Model4DataCTrack
+ model4datactrack.profile
