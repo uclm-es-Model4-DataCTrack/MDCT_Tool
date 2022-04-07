@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.papyrus.infra.architecture.models">
+      <model
+            path="model/mdct.architecture">
+      </model>
+   </extension>
+   <extension
+         point="org.eclipse.papyrus.infra.services.validation.diagnosticians">
+      <diagnostician
+            diagnostician="model4datactrack.architecture.validationFilter.M4DCTDiagnostician"
+            filter="model4datactrack.architecture.validationFilter.M4DCTValidationFilter"
+            id="model4datactrack.architecture.diagnostician"
+            priority="default">
+      </diagnostician>
+   </extension>
+
+</plugin>
