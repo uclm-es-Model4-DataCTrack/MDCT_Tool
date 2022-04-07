@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/uml2/2.2.0/GenModel"
+    modelDirectory="/model4datactrack.profile/src-gen" modelPluginID="model4datactrack.profile"
+    modelName="Model4datactrack" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.uml2.uml.ecore.importer" complianceLevel="5.0" copyrightFields="false"
+    usedGenPackages="../../org.eclipse.emf.ecore/model/Ecore.genmodel#//ecore ../../org.eclipse.uml2.types/model/Types.genmodel#//types ../../org.eclipse.uml2.uml/model/UML.genmodel#//uml"
+    operationReflection="true" importOrganizing="true">
+  <genAnnotations source="http://www.eclipse.org/emf/2002/GenModel/importer/org.eclipse.uml2.uml.ecore.importer">
+    <details key="OPPOSITE_ROLE_NAMES" value="IGNORE"/>
+    <details key="DUPLICATE_FEATURES" value="DISCARD"/>
+    <details key="ANNOTATION_DETAILS" value="PROCESS"/>
+    <details key="PROPERTY_DEFAULT_EXPRESSIONS" value="IGNORE"/>
+    <details key="DUPLICATE_FEATURE_INHERITANCE" value="DISCARD"/>
+    <details key="COMMENTS" value="PROCESS"/>
+    <details key="DERIVED_FEATURES" value="PROCESS"/>
+    <details key="SUPER_CLASS_ORDER" value="PROCESS"/>
+    <details key="DUPLICATE_OPERATION_INHERITANCE" value="DISCARD"/>
+    <details key="REDEFINING_OPERATIONS" value="REPORT"/>
+    <details key="INVARIANT_CONSTRAINTS" value="PROCESS"/>
+    <details key="UNION_PROPERTIES" value="REPORT"/>
+    <details key="DUPLICATE_OPERATIONS" value="DISCARD"/>
+    <details key="NON_API_INVARIANTS" value="IGNORE"/>
+    <details key="CAMEL_CASE_NAMES" value="IGNORE"/>
+    <details key="SUBSETTING_PROPERTIES" value="REPORT"/>
+    <details key="OPERATION_BODIES" value="IGNORE"/>
+    <details key="ECORE_TAGGED_VALUES" value="PROCESS"/>
+    <details key="UNTYPED_PROPERTIES" value="REPORT"/>
+    <details key="REDEFINING_PROPERTIES" value="REPORT"/>
+    <details key="INVOCATION_DELEGATES" value="IGNORE"/>
+    <details key="VALIDATION_DELEGATES" value="IGNORE"/>
+  </genAnnotations>
+  <foreignModel>model4datactrack.profile.uml</foreignModel>
+  <genPackages xsi:type="genmodel:GenPackage" prefix="Model4datactrackprofile" disposableProviderFactory="true"
+      ecorePackage="model4datactrackprofile.ecore#/">
+    <genEnums xsi:type="genmodel:GenEnum" typeSafeEnumCompatible="false" ecoreEnum="model4datactrackprofile.ecore#//BandwidthUnit">
+      <genEnumLiterals xsi:type="genmodel:GenEnumLiteral" ecoreEnumLiteral="model4datactrackprofile.ecore#//BandwidthUnit/Kbps"/>
+      <genEnumLiterals xsi:type="genmodel:GenEnumLiteral" ecoreEnumLiteral="model4datactrackprofile.ecore#//BandwidthUnit/Mbps"/>
+      <genEnumLiterals xsi:type="genmodel:GenEnumLiteral" ecoreEnumLiteral="model4datactrackprofile.ecore#//BandwidthUnit/Gbps"/>
+    </genEnums>
+    <genEnums xsi:type="genmodel:GenEnum" typeSafeEnumCompatible="false" ecoreEnum="model4datactrackprofile.ecore#//TimeUnit">
+      <genEnumLiterals xsi:type="genmodel:GenEnumLiteral" ecoreEnumLiteral="model4datactrackprofile.ecore#//TimeUnit/h"/>
+      <genEnumLiterals xsi:type="genmodel:GenEnumLiteral" ecoreEnumLiteral="model4datactrackprofile.ecore#//TimeUnit/min"/>
+      <genEnumLiterals xsi:type="genmodel:GenEnumLiteral" ecoreEnumLiteral="model4datactrackprofile.ecore#//TimeUnit/s"/>
+      <genEnumLiterals xsi:type="genmodel:GenEnumLiteral" ecoreEnumLiteral="model4datactrackprofile.ecore#//TimeUnit/ms"/>
+      <genEnumLiterals xsi:type="genmodel:GenEnumLiteral" ecoreEnumLiteral="model4datactrackprofile.ecore#//TimeUnit/us"/>
+      <genEnumLiterals xsi:type="genmodel:GenEnumLiteral" ecoreEnumLiteral="model4datactrackprofile.ecore#//TimeUnit/ns"/>
+      <genEnumLiterals xsi:type="genmodel:GenEnumLiteral" ecoreEnumLiteral="model4datactrackprofile.ecore#//TimeUnit/days"/>
+    </genEnums>
+    <genEnums xsi:type="genmodel:GenEnum" typeSafeEnumCompatible="false" ecoreEnum="model4datactrackprofile.ecore#//SizeUnit">
+      <genEnumLiterals xsi:type="genmodel:GenEnumLiteral" ecoreEnumLiteral="model4datactrackprofile.ecore#//SizeUnit/KByte"/>
+      <genEnumLiterals xsi:type="genmodel:GenEnumLiteral" ecoreEnumLiteral="model4datactrackprofile.ecore#//SizeUnit/MByte"/>
+      <genEnumLiterals xsi:type="genmodel:GenEnumLiteral" ecoreEnumLiteral="model4datactrackprofile.ecore#//SizeUnit/GByte"/>
+      <genEnumLiterals xsi:type="genmodel:GenEnumLiteral" ecoreEnumLiteral="model4datactrackprofile.ecore#//SizeUnit/TByte"/>
+    </genEnums>
+    <genEnums xsi:type="genmodel:GenEnum" typeSafeEnumCompatible="false" ecoreEnum="model4datactrackprofile.ecore#//ActionType">
+      <genEnumLiterals xsi:type="genmodel:GenEnumLiteral" ecoreEnumLiteral="model4datactrackprofile.ecore#//ActionType/read"/>
+      <genEnumLiterals xsi:type="genmodel:GenEnumLiteral" ecoreEnumLiteral="model4datactrackprofile.ecore#//ActionType/write"/>
+    </genEnums>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//Infrastructure">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//Infrastructure/base_Component"/>
+      <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+          createChild="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//Infrastructure/network"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//Infrastructure/cloudProvider"/>
+      <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+          createChild="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//Infrastructure/datacenterelements"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//Bandwidth">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//Bandwidth/value"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//Bandwidth/unit"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model4datactrackprofile.ecore#//Bandwidth/bandwidth_value_greater_than_0">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//Bandwidth/bandwidth_value_greater_than_0/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//Bandwidth/bandwidth_value_greater_than_0/context"/>
+      </genOperations>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//ControllerCP">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//ControllerCP/base_Lifeline"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//ControllerCP/resourceAllocationPolicy"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//ControllerCP/idProvider"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//ControllerCP/sla"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//ControllerCP/accesslog"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model4datactrackprofile.ecore#//ControllerCP/newLocation_machine_not_under_sla_with_controller">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//ControllerCP/newLocation_machine_not_under_sla_with_controller/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//ControllerCP/newLocation_machine_not_under_sla_with_controller/context"/>
+      </genOperations>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model4datactrackprofile.ecore#//ControllerCP/location1_machine_not_under_sla_with_controller">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//ControllerCP/location1_machine_not_under_sla_with_controller/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//ControllerCP/location1_machine_not_under_sla_with_controller/context"/>
+      </genOperations>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//SLA">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//SLA/base_Class"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//SLA/subjectMatter"/>
+      <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+          createChild="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//SLA/processingDuration"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//SLA/base_Component"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//SLA/recipients"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//SLA/processingNature"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//SLA/processingPurpose"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//SLA/processingInstructions"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//Time">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//Time/value"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//Time/unit"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model4datactrackprofile.ecore#//Time/time_value_greater_than_0">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//Time/time_value_greater_than_0/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//Time/time_value_greater_than_0/context"/>
+      </genOperations>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//StatelessAppCTP"/>
+    <genClasses xsi:type="genmodel:GenClass" image="false" ecoreClass="model4datactrackprofile.ecore#//Principal">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//Principal/base_Component"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//Principal/base_Lifeline"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//AccessLog">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//AccessLog/base_Class"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//AccessLog/base_Component"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//AccessLog/tp"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//AccessLog/l1"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//AccessLog/sp1"/>
+      <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+          createChild="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//AccessLog/O"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//AccessLog/action"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//AccessLog/nl"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//AccessLog/nsp"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model4datactrackprofile.ecore#//AccessLog/log_access_match_sp_access">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//AccessLog/log_access_match_sp_access/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//AccessLog/log_access_match_sp_access/context"/>
+      </genOperations>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//Storage">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//Storage/numberOfDrivers"/>
+      <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+          createChild="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//Storage/dirveCapacity"/>
+      <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+          createChild="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//Storage/readBandwidth"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//Storage/data"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model4datactrackprofile.ecore#//Storage/numberOfDrivers_greater_than_0">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//Storage/numberOfDrivers_greater_than_0/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//Storage/numberOfDrivers_greater_than_0/context"/>
+      </genOperations>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" image="false" ecoreClass="model4datactrackprofile.ecore#//Hardware">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//Hardware/base_Component"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//Size">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//Size/value"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//Size/unit"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model4datactrackprofile.ecore#//Size/size_value_greater_than_0">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//Size/size_value_greater_than_0/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//Size/size_value_greater_than_0/context"/>
+      </genOperations>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//Data">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//Data/base_Class"/>
+      <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+          createChild="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//Data/archive"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//Data/appliedPolicy"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//Data/base_Component"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//DataArchive">
+      <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+          createChild="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//DataArchive/contents"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//DataArchive/idData"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//DataField">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//DataField/value"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//StickyPolicy">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//StickyPolicy/base_Class"/>
+      <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+          createChild="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//StickyPolicy/permission"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//StickyPolicy/base_Component"/>
+      <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+          createChild="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//StickyPolicy/owner"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//StickyPolicy/purpose"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//StickyPolicy/controller"/>
+      <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+          createChild="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//StickyPolicy/accessHistory"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model4datactrackprofile.ecore#//StickyPolicy/allowed_access_purpose">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//StickyPolicy/allowed_access_purpose/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//StickyPolicy/allowed_access_purpose/context"/>
+      </genOperations>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model4datactrackprofile.ecore#//StickyPolicy/all_tps_in_history_given_permissions">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//StickyPolicy/all_tps_in_history_given_permissions/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//StickyPolicy/all_tps_in_history_given_permissions/context"/>
+      </genOperations>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//PermissionPerTP">
+      <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+          createChild="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//PermissionPerTP/S"/>
+      <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+          createChild="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//PermissionPerTP/I"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//PList">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//PList/list"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//AccesPerTP">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//AccesPerTP/tp"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//AccesPerTP/actionPerformed"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//AccesPerTP/purpose"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//DataCenterElement">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//DataCenterElement/numberOfDataCenters"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//DataCenterElement/dataCenterType"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model4datactrackprofile.ecore#//DataCenterElement/no_empty_infra">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//DataCenterElement/no_empty_infra/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//DataCenterElement/no_empty_infra/context"/>
+      </genOperations>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//DataCenter">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//DataCenter/base_Component"/>
+      <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+          createChild="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//DataCenter/network"/>
+      <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+          createChild="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//DataCenter/rack"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//RackElement">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//RackElement/numberOfRacks"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//RackElement/rackType"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model4datactrackprofile.ecore#//RackElement/no_empty_datacenters">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//RackElement/no_empty_datacenters/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//RackElement/no_empty_datacenters/context"/>
+      </genOperations>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" image="false" ecoreClass="model4datactrackprofile.ecore#//Rack">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//Rack/base_Component"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//Rack/machinesPerBoard"/>
+      <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+          createChild="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//Rack/network"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//Rack/boards"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model4datactrackprofile.ecore#//Rack/no_empty_racks">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//Rack/no_empty_racks/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//Rack/no_empty_racks/context"/>
+      </genOperations>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" image="false" ecoreClass="model4datactrackprofile.ecore#//Machine">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//Machine/base_Component"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//Machine/cpu"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//Machine/memory"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//Machine/storage"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//CPU">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//CPU/cores"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//CPU/FLOPs"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model4datactrackprofile.ecore#//CPU/cpu_cores_and_flops_greater_than_0">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//CPU/cpu_cores_and_flops_greater_than_0/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//CPU/cpu_cores_and_flops_greater_than_0/context"/>
+      </genOperations>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//Memory">
+      <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+          createChild="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//Memory/capacity"/>
+      <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+          createChild="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//Memory/latency"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//Latency">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//Latency/name"/>
+      <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+          createChild="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//Latency/time"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model4datactrackprofile.ecore#//Latency/latency_not_in_us_or_ns">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//Latency/latency_not_in_us_or_ns/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//Latency/latency_not_in_us_or_ns/context"/>
+      </genOperations>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model4datactrackprofile.ecore#//Latency/latency_name_not_empty">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//Latency/latency_name_not_empty/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//Latency/latency_name_not_empty/context"/>
+      </genOperations>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//ComputingRack">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//ComputingRack/machineType"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" image="false" ecoreClass="model4datactrackprofile.ecore#//StatelessComputationMachine">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//StatelessComputationMachine/applications"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//StatelessComputationMachine/purpose"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//StorageRack">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//StorageRack/machineType"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//SSMProcessor">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//SSMProcessor/base_Lifeline"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//SSMProcessor/sla"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//SSMProcessor/GDPRCompliance"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model4datactrackprofile.ecore#//SSMProcessor/SSMProccessor_complies_GDPR">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//SSMProcessor/SSMProccessor_complies_GDPR/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//SSMProcessor/SSMProccessor_complies_GDPR/context"/>
+      </genOperations>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//User">
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//User/instances"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//User/idUser"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//sendData">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//sendData/base_Message"/>
+      <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+          createChild="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//sendData/maxTime"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//sendData/data"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model4datactrackprofile.ecore#//sendData/sendData_timeunit_not_days_or_hours_or_minutes">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//sendData/sendData_timeunit_not_days_or_hours_or_minutes/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//sendData/sendData_timeunit_not_days_or_hours_or_minutes/context"/>
+      </genOperations>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model4datactrackprofile.ecore#//sendData/sendData_maxTime_value_greater_than_0">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//sendData/sendData_maxTime_value_greater_than_0/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//sendData/sendData_maxTime_value_greater_than_0/context"/>
+      </genOperations>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//newRestrictions">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//newRestrictions/base_Message"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//newRestrictions/data"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//newRestrictions/newSP"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//rectifyData">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//rectifyData/base_Message"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//rectifyData/data"/>
+      <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+          createChild="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//rectifyData/newData"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model4datactrackprofile.ecore#//rectifyData/no_empty_rectify_fields">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//rectifyData/no_empty_rectify_fields/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//rectifyData/no_empty_rectify_fields/context"/>
+      </genOperations>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//removeData">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//removeData/base_Message"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//removeData/data"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//eraseData">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//eraseData/base_Message"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//eraseData/data"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//eraseData/machines"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model4datactrackprofile.ecore#//eraseData/machine_contains_data_to_erase">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//eraseData/machine_contains_data_to_erase/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//eraseData/machine_contains_data_to_erase/context"/>
+      </genOperations>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model4datactrackprofile.ecore#//eraseData/eraseData_destination_machines_comply_with_GDPR">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//eraseData/eraseData_destination_machines_comply_with_GDPR/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//eraseData/eraseData_destination_machines_comply_with_GDPR/context"/>
+      </genOperations>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//consent">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//consent/base_Message"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//consent/data"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//consent/action"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//consent/purpose"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model4datactrackprofile.ecore#//consent/consent_machine_complies_with_GDPR">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//consent/consent_machine_complies_with_GDPR/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//consent/consent_machine_complies_with_GDPR/context"/>
+      </genOperations>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//askAuthentication">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//askAuthentication/base_Message"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//tp">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//tp/base_Message"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//tp/tp"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//readData">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//readData/base_Message"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//permission">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//permission/base_Message"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//permission/purpose"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//permission/permissionType"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model4datactrackprofile.ecore#//permission/no_access_permission_given_without_user_consent">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//permission/no_access_permission_given_without_user_consent/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//permission/no_access_permission_given_without_user_consent/context"/>
+      </genOperations>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//notify">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//notify/base_Message"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//notify/data"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//notify/machines"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//notify/breaches"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model4datactrackprofile.ecore#//notify/notify_destination_machines_comply_with_GDPR">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//notify/notify_destination_machines_comply_with_GDPR/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//notify/notify_destination_machines_comply_with_GDPR/context"/>
+      </genOperations>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//upDate">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//upDate/base_Message"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//upDate/data"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//upDate/machines"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//upDate/newSP"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model4datactrackprofile.ecore#//upDate/machine_contains_data_to_update">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//upDate/machine_contains_data_to_update/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//upDate/machine_contains_data_to_update/context"/>
+      </genOperations>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model4datactrackprofile.ecore#//upDate/upDate_destination_machines_comply_with_GDPR">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//upDate/upDate_destination_machines_comply_with_GDPR/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//upDate/upDate_destination_machines_comply_with_GDPR/context"/>
+      </genOperations>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//newData">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//newData/base_Message"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//newData/data"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//newData/machines"/>
+      <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+          createChild="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//newData/newData"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model4datactrackprofile.ecore#//newData/no_empty_newData_fields">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//newData/no_empty_newData_fields/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//newData/no_empty_newData_fields/context"/>
+      </genOperations>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model4datactrackprofile.ecore#//newData/machine_contains_data_to_rectify">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//newData/machine_contains_data_to_rectify/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//newData/machine_contains_data_to_rectify/context"/>
+      </genOperations>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model4datactrackprofile.ecore#//newData/newData_destination_machines_comply_with_GDPR">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//newData/newData_destination_machines_comply_with_GDPR/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//newData/newData_destination_machines_comply_with_GDPR/context"/>
+      </genOperations>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//askDataInformation">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//askDataInformation/base_Message"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//askDataInformation/user"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//reportDataManagement">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//reportDataManagement/base_Message"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//subscribe">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//subscribe/base_Message"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//subscribe/data"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//subscribe/machines"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//subscribe/breaches"/>
+      <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+          createChild="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//subscribe/maxSubscriptionTime"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model4datactrackprofile.ecore#//subscribe/maxSubTime_greater_than_0">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//subscribe/maxSubTime_greater_than_0/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//subscribe/maxSubTime_greater_than_0/context"/>
+      </genOperations>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model4datactrackprofile.ecore#//subscribe/machine_contains_data_to_subscribe_to">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//subscribe/machine_contains_data_to_subscribe_to/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//subscribe/machine_contains_data_to_subscribe_to/context"/>
+      </genOperations>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model4datactrackprofile.ecore#//subscribe/subscribe_destination_machines_comply_with_GDPR">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//subscribe/subscribe_destination_machines_comply_with_GDPR/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//subscribe/subscribe_destination_machines_comply_with_GDPR/context"/>
+      </genOperations>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//informBreaches">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//informBreaches/base_Message"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//timeoutSubscription">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//timeoutSubscription/base_Message"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//writeData">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//writeData/base_Message"/>
+      <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+          createChild="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//writeData/newData"/>
+      <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+          createChild="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//writeData/maxTime"/>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model4datactrackprofile.ecore#//writeData/no_empty_write_fields">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//writeData/no_empty_write_fields/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//writeData/no_empty_write_fields/context"/>
+      </genOperations>
+      <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model4datactrackprofile.ecore#//writeData/writeData_timeunit_not_days_or_hours_or_minutes">
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//writeData/writeData_timeunit_not_days_or_hours_or_minutes/diagnostics"/>
+        <genParameters xsi:type="genmodel:GenParameter" ecoreParameter="model4datactrackprofile.ecore#//writeData/writeData_timeunit_not_days_or_hours_or_minutes/context"/>
+      </genOperations>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//accessInformation">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//accessInformation/base_Message"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//removeSPInLog">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//removeSPInLog/base_Message"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//Info">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//Info/base_Message"/>
+      <genFeatures xsi:type="genmodel:GenFeature" property="None" children="true"
+          createChild="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//Info/maxTime"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//Info/provider"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//Info/recipients"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//TrustedSCM"/>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//UntrustedSCM"/>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//consentInfo">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//consentInfo/base_Message"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//consentInfo/purpose"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//consentInfo/action"/>
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//consentInfo/tp"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//ok">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//ok/base_Message"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//ok/purpose"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//ok/permissionType"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//informationNotForFree">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//informationNotForFree/base_Message"/>
+      <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model4datactrackprofile.ecore#//informationNotForFree/price"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//wantToAccess">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//wantToAccess/base_Message"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//reportDataDManagementForFree">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//reportDataDManagementForFree/base_Message"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//checkChanges">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//checkChanges/base_Message"/>
+    </genClasses>
+    <genClasses xsi:type="genmodel:GenClass" ecoreClass="model4datactrackprofile.ecore#//SP">
+      <genFeatures xsi:type="genmodel:GenFeature" notify="false" createChild="false"
+          propertySortChoices="true" ecoreFeature="ecore:EReference model4datactrackprofile.ecore#//SP/base_Message"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>
