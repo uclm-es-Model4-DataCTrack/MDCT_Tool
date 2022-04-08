@@ -35,10 +35,11 @@ There are different options available for the installation and use of this tool:
     
     https://download.eclipse.org/modeling/mdt/papyrus/components/incubation/dsml.validation/updates/oxygen/1.2.0/
     
+    
     5-Apply the cahnges and reopen the install new software dialog.
     6-Choose the new site in the dropdown list "Work with".
     7-Select the DSML Validation features and click next.
     8-Click on next and wait for the requirements check, then click on next again if there are no errors.
     9-Accept the terms and click on "Finish" to begin the installation. 
   
-  The second option is to install the tool from the .site project, this can be done following the same steps as for the offline installation but selecting "Local" instead of "Archive" in step 3. For this way if installing it is not necessary to install dsml.validation
+  The last option is to install the tool from the .site project, this can be done following the same steps as for the offline installation but selecting "Local" instead of "Archive" in step 3. For this way of installing it is not necessary to install dsml.validation.
