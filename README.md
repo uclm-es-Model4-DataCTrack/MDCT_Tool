@@ -9,7 +9,9 @@ There are different options available for the installation and use of this tool:
     1-Click on "Help -> Install New Software..." 
     2-In the pop-up select "Manage" and remove or deselect all the update sites
     3-Click on "Add".
-    4-In the new dialog enter a name for the site and enter the location for the defaul 5.2.0 update site: https://download.eclipse.org/modeling/mdt/papyrus/updates/releases/2021-09/
+    4-In the new dialog enter a name for the site and enter the location for the defaul 5.2.0 update site:
+    
+    https://download.eclipse.org/modeling/mdt/papyrus/updates/releases/2021-09/
   
   
   After that the installation can be done in two ways. For the first option, the online installation, in Papyrus:
@@ -33,7 +35,10 @@ There are different options available for the installation and use of this tool:
     1-Click on "Help -> Install New Software..."
     2-In the pop-up select "Manage".
     3-Click on "Add".
-    4-In the new dialog enter a name for the site and enter the location for dsml.validation update site: https://download.eclipse.org/modeling/mdt/papyrus/components/incubation/dsml.validation/updates/oxygen/1.2.0/
+    4-In the new dialog enter a name for the site and enter the location for dsml.validation update site: 
+    
+    https://download.eclipse.org/modeling/mdt/papyrus/components/incubation/dsml.validation/updates/oxygen/1.2.0/
+    
     5-Apply the cahnges and reopen the install new software dialog.
     6-Choose the new site in the dropdown list "Work with".
     7-Select the DSML Validation features and click next.
