@@ -32,7 +32,7 @@ Additionally, users can directly clone or download a zip file with the contents 
   3. Click on "Add".
   4. In the new dialog enter a name for the site and enter the location for dsml.validation update site:
 
-https://download.eclipse.org/modeling/mdt/papyrus/components/incubation/dsml.validation/updates/oxygen/1.2.0/
+    https://download.eclipse.org/modeling/mdt/papyrus/components/incubation/dsml.validation/updates/oxygen/1.2.0/
 
   5. Apply the cahnges and reopen the install new software dialog.
   6. Choose the new site in the dropdown list "Work with".
