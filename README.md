@@ -4,7 +4,8 @@ This repository contains the sources of the plug-ins conforming the Model4_DataC
 
 There are different options available for the installation and use of this tool:
 
-  The easiest option is to install the tool from the update site https://dsi.uclm.es/cloud/modeling/model4datactrack/releases/1/, for this it is recommended to remove all the alternative update sites and include only the default Papyrus 5.2.0 update site. To do this follow the next steps:   
+  The easiest option is to install the tool from the update site https://dsi.uclm.es/cloud/modeling/model4datactrack/releases/1/, for this it is recommended to remove all the alternative update sites and include only the default Papyrus 5.2.0 update site. To do this follow the next steps:
+  
     1. Click on "Help -> Install New Software...". 
     2. In the pop-up select "Manage" and remove or deselect all the update sites.
     3. Click on "Add".
