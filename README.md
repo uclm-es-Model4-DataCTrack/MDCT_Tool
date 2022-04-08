@@ -13,7 +13,7 @@ There are different options available for the installation and use of this tool:
     https://download.eclipse.org/modeling/mdt/papyrus/updates/releases/2021-09/
   
   
-  After that the installation can be done in two ways. For the first option, the online installation, in Papyrus:    
+  After that the installation can be done in two ways. For the first option, the online installation, in Papyrus:
     1. Click on "Help -> Install New Software..."    
     2. Include the previous link in the field "Work with"     
     3. It will locate the M4DCT category or feature, depending on whether or not the box Group elements by category is checked.    
