@@ -3,7 +3,7 @@
 This repository contains the sources of the plug-ins conforming to the Model4_DataCTrack profile modeling tool for the Papyrus 5.2.0 eclipse modeling plug-in.
 
 There are different options available for the installation and use of this tool.
-Additionally, a video demonstration can be accessed at https://dsi.uclm.es/cloud/modeling/model4datactrack/resources/.
+Additionally, a video demonstration can be accessed at https://dsi.uclm.es/cloud/modeling/model4datactrack/resources/. In this URL you can also find a preconfigured VM with everything you need already installed in case you don't want to risk a faulty installation.
 
   The easiest option is to install the tool from the update site https://dsi.uclm.es/cloud/modeling/model4datactrack/releases/1/, we recommend removing all the alternative update sites and including only the default Papyrus 5.2.0 update site. To do this, follow the next steps: 
   1. Click on "Help -> Install New Software...".
