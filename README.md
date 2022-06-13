@@ -43,4 +43,4 @@ Additionally, users can directly clone or download a zip file with the contents 
   
   The last option is to install the tool from the .site project, this can be done following the same steps as for the offline installation but selecting "Local" instead of "Archive" in step 3. For this way of installing it is not necessary to install dsml.validation.
 
-Of course you can also download the source files a load them into your Papyrus workspace to execute them, which is the most efficient option.
+Of course you can also download the source files a load them into your Papyrus workspace to execute them, which is the most affective option.
