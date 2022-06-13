@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated model4datactrack.profile -->
+      <package
+            uri="https://www.model4datactrack.com/model4datactrack/1"
+            class="model4datactrackprofile.Model4datactrackprofilePackage"
+            genModel="model4datactrack.profile.genmodel"/>
+   </extension>
+   <extension
+         point="org.eclipse.emf.ecore.uri_mapping">
+      <mapping
+            source="pathmap://MODEL4DATACTRACK_PROFILE/"
+            target="platform:/plugin/model4datactrack.profile/model/">
+      </mapping>
+   </extension>
+   <extension
+         point="org.eclipse.uml2.uml.generated_package">
+      <profile
+            location="pathmap://MODEL4DATACTRACK_PROFILE/model4datactrack.profile.uml#_y17KgDuxEeyh_cZcIVzzKg"
+            uri="https://www.model4datactrack.com/model4datactrack/1">
+      </profile>
+   </extension>
+   <extension
+         point="org.eclipse.papyrus.uml.extensionpoints.UMLProfile">
+      <profile
+            description="The plugin containing the profile for M4DCT"
+            name="model4datactrack.profile"
+            path="pathmap://MODEL4DATACTRACK_PROFILE/model4datactrack.profile.uml"
+            provider="Miguel Martínez">
+      </profile>
+   </extension>
+
+</plugin>

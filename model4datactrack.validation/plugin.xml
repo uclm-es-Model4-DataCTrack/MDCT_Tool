@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?eclipse version="3.4"?><plugin>
+                  
+   
+   
+   
+   
+   
+   <extension name="dsml.validation.generated.model4datactrack.profile" point="org.eclipse.emf.validation.constraintProviders">
+      <category id="model4datactrack.validation.model4datactrack.profile" mandatory="false" name="model4datactrack.validation.model4datactrack.profile"/>
+      <constraintProvider cache="false" mode="Batch">
+         <package namespaceUri="https://www.model4datactrack.com/model4datactrack/1"/>
+         <constraints categories="model4datactrack.validation.model4datactrack.profile">
+            <constraint id="model4datactrack.profile.Rack.no_empty_racks" isEnabledByDefault="true" lang="OCLpivot" mode="Batch" name="no_empty_racks" severity="ERROR" statusCode="1">
+               <message>Rack's machinesPerBoard and boards must be greater than 0</message>
+               <description>Set both machinesPerBoard and boards to a value greater than 0</description>
+               <![CDATA[
+self.machinesPerBoard>0
+and
+self.boards>0]]>
+            </constraint>
+            <constraint id="model4datactrack.profile.SSMProcessor.SSMProccessor_complies_GDPR" isEnabledByDefault="true" lang="OCLpivot" mode="Batch" name="SSMProccessor_complies_GDPR" severity="ERROR" statusCode="1">
+               <message>Processor machine does not comply with the GDPR</message><![CDATA[self.GDPRCompliance=true]]></constraint>
+            <constraint id="model4datactrack.profile.CPU.cpu_cores_and_flops_greater_than_0" isEnabledByDefault="true" lang="OCLpivot" mode="Batch" name="cpu_cores_and_flops_greater_than_0" severity="ERROR" statusCode="1">
+               <message>CPU attributes cores and FLOPs must be greater than 0</message>
+               <description>Set the values of cores and FLOPs to a number greater than 0</description>
+               <![CDATA[self.cores>0 and self.FLOPs>0.0]]>
+            </constraint>
+            <constraint id="model4datactrack.profile.Storage.numberOfDrivers_greater_than_0" isEnabledByDefault="true" lang="OCLpivot" mode="Batch" name="numberOfDrivers_greater_than_0" severity="ERROR" statusCode="1">
+               <message>numberOfDrivers must be greater than 0</message>
+               <description>Set numberOfDrivers to a value greater than 0</description>
+               <![CDATA[self.numberOfDrivers>0]]>
+            </constraint>
+            <constraint id="model4datactrack.profile.StickyPolicy.allowed_access_purpose" isEnabledByDefault="true" lang="OCLpivot" mode="Batch" name="allowed_access_purpose" severity="ERROR" statusCode="1">
+               <message>Constraint 'allowed_access_purpose' is violated</message><![CDATA[self.accessHistory->forAll(his | his.purpose->forAll(p | self.purpose->includes(p)))]]></constraint>
+            <constraint id="model4datactrack.profile.StickyPolicy.all_tps_in_history_given_permissions" isEnabledByDefault="true" lang="OCLpivot" mode="Batch" name="all_tps_in_history_given_permissions" severity="ERROR" statusCode="1">
+               <message>Not all tps have permission for their access</message>
+               <description>Create a log for each access in the accessHistory list </description>
+               <![CDATA[self.accessHistory->forAll( his | AccessLog.allInstances()->exists( log | log.tp=his.tp and log.action=his.actionPerformed))]]>
+            </constraint>
+            <constraint id="model4datactrack.profile.AccessLog.log_access_match_sp_access" isEnabledByDefault="true" lang="OCLpivot" mode="Batch" name="log_access_match_sp_access" severity="ERROR" statusCode="1">
+               <message>Constraint 'log_access_match_sp_access' is violated</message>
+               <description>The new sticky policy of the log (nsp) must include the access represented in the log inside the accessHistory field, please create a new policy that satisfies it or add the access to the used one</description>
+               <![CDATA[self.sp1.accessHistory->exists(his | his.tp=self.tp and his.actionPerformed=self.action)]]>
+            </constraint>
+            <constraint id="model4datactrack.profile.sendData.sendData_timeunit_not_days_or_hours_or_minutes" isEnabledByDefault="true" lang="OCLpivot" mode="Batch" name="sendData_timeunit_not_days_or_hours_or_minutes" severity="WARNING" statusCode="1">
+               <message>Data storage time unit is invalid</message>
+               <description>Please set the data storage time unit to either min or h</description>
+               <![CDATA[self.maxTime.unit=TimeUnit::days or
+self.maxTime.unit=TimeUnit::h or
+self.maxTime.unit=TimeUnit::min]]>
+            </constraint>
+            <constraint id="model4datactrack.profile.sendData.sendData_maxTime_value_greater_than_0" isEnabledByDefault="true" lang="OCLpivot" mode="Batch" name="sendData_maxTime_value_greater_than_0" severity="ERROR" statusCode="1">
+               <message>Data storage time is 0</message>
+               <description>Please set the sendData maxTime value to a number greater than 0</description>
+               <![CDATA[self.maxTime.value>0]]>
+            </constraint>
+            <constraint id="model4datactrack.profile.rectifyData.no_empty_rectify_fields" isEnabledByDefault="true" lang="OCLpivot" mode="Batch" name="no_empty_rectify_fields" severity="ERROR" statusCode="1">
+               <message>Rectify empty field</message>
+               <description>Attemp to write an empty field on rectify, accuracy principle infringed</description>
+               <![CDATA[self.newData->forAll(f | f.value.size()>0)]]>
+            </constraint>
+            <constraint id="model4datactrack.profile.eraseData.machine_contains_data_to_erase" isEnabledByDefault="true" lang="OCLpivot" mode="Batch" name="machine_contains_data_to_erase" severity="ERROR" statusCode="1">
+               <message>Data to erase not present in one or more machines</message>
+               <description>Include only machines with copy of data in eraseData message</description>
+               <![CDATA[self.machines->forAll(m | m.storage.data->includes(self.data))]]>
+            </constraint>
+            <constraint id="model4datactrack.profile.eraseData.eraseData_destination_machines_comply_with_GDPR" isEnabledByDefault="true" lang="OCLpivot" mode="Batch" name="eraseData_destination_machines_comply_with_GDPR" severity="ERROR" statusCode="1">
+               <message>One or more destination machines for eraseData message do not comply with GDPR</message><![CDATA[self.machines->forAll(m | m.GDPRCompliance=true)]]></constraint>
+            <constraint id="model4datactrack.profile.consent.consent_machine_complies_with_GDPR" isEnabledByDefault="true" lang="OCLpivot" mode="Batch" name="consent_machine_complies_with_GDPR" severity="ERROR" statusCode="1">
+               <message>machine required in consent message does not comply with GDPR</message><![CDATA[self.machine.GDPRCompliance=true]]></constraint>
+            <constraint id="model4datactrack.profile.permission.no_access_permission_given_without_user_consent" isEnabledByDefault="true" lang="OCLpivot" mode="Batch" name="no_access_permission_given_without_user_consent" severity="ERROR" statusCode="1">
+               <message>Constraint 'no_access_permission_given_without_user_consent' is violated</message><![CDATA[permission.allInstances()->forAll(ok.allInstances()->exists(okmsg | self.purpose->forAll(p | okmsg.purpose->includes(p)) and okmsg.permissionType = self.permissionType) 
+	and
+	consentInfo.allInstances()->exists(consentmsg | self.purpose->forAll(p | consentmsg.purpose->includes(p)) and consentmsg.action = self.permissionType )
+)]]></constraint>
+            <constraint id="model4datactrack.profile.notify.notify_destination_machines_comply_with_GDPR" isEnabledByDefault="true" lang="OCLpivot" mode="Batch" name="notify_destination_machines_comply_with_GDPR" severity="ERROR" statusCode="1">
+               <message>One or more destination machines for subscribe message do not comply with GDPR</message><![CDATA[self.machines->forAll(m | m.GDPRCompliance=true)]]></constraint>
+            <constraint id="model4datactrack.profile.upDate.machine_contains_data_to_update" isEnabledByDefault="true" lang="OCLpivot" mode="Batch" name="machine_contains_data_to_update" severity="ERROR" statusCode="1">
+               <message>Data to update not present in one or more machines</message>
+               <description>Include only machines with copy of data in upDate message</description>
+               <![CDATA[self.machines->forAll(m | m.storage.data->includes(self.data))]]>
+            </constraint>
+            <constraint id="model4datactrack.profile.upDate.upDate_destination_machines_comply_with_GDPR" isEnabledByDefault="true" lang="OCLpivot" mode="Batch" name="upDate_destination_machines_comply_with_GDPR" severity="ERROR" statusCode="1">
+               <message>One or more destination machines for upDate message do not comply with GDPR</message><![CDATA[self.machines->forAll(m | m.GDPRCompliance=true)]]></constraint>
+            <constraint id="model4datactrack.profile.newData.no_empty_newData_fields" isEnabledByDefault="true" lang="OCLpivot" mode="Batch" name="no_empty_newData_fields" severity="ERROR" statusCode="1">
+               <message>Empty data field</message>
+               <description>Attemp to add an empty field on newData, accuracy principle infringed</description>
+               <![CDATA[self.newData->forAll(f | f.value.size()>0)]]>
+            </constraint>
+            <constraint id="model4datactrack.profile.newData.machine_contains_data_to_rectify" isEnabledByDefault="true" lang="OCLpivot" mode="Batch" name="machine_contains_data_to_rectify" severity="ERROR" statusCode="1">
+               <message>Data to rectify(newData message) not present in one or more machines</message>
+               <description>Include only machines with copy of data in sewData message</description>
+               <![CDATA[self.machines->forAll(m | m.storage.data->includes(self.data))]]>
+            </constraint>
+            <constraint id="model4datactrack.profile.newData.newData_destination_machines_comply_with_GDPR" isEnabledByDefault="true" lang="OCLpivot" mode="Batch" name="newData_destination_machines_comply_with_GDPR" severity="ERROR" statusCode="1">
+               <message>One or more destination machines for newData message do not comply with GDPR</message><![CDATA[self.machines->forAll(m | m.GDPRCompliance=true)]]></constraint>
+            <constraint id="model4datactrack.profile.subscribe.maxSubTime_greater_than_0" isEnabledByDefault="true" lang="OCLpivot" mode="Batch" name="maxSubTime_greater_than_0" severity="ERROR" statusCode="1">
+               <message>Invalid subscription time </message>
+               <description>Subscribe time must be greater than 0</description>
+               <![CDATA[self.maxSubscriptionTime.value>0]]>
+            </constraint>
+            <constraint id="model4datactrack.profile.subscribe.machine_contains_data_to_subscribe_to" isEnabledByDefault="true" lang="OCLpivot" mode="Batch" name="machine_contains_data_to_subscribe_to" severity="ERROR" statusCode="1">
+               <message>Data to subscribe to not present in one or more machines</message>
+               <description>Include only machines with copy of data in subscribe message</description>
+               <![CDATA[self.machines->forAll(m | m.storage.data->includes(self.data))]]>
+            </constraint>
+            <constraint id="model4datactrack.profile.subscribe.subscribe_destination_machines_comply_with_GDPR" isEnabledByDefault="true" lang="OCLpivot" mode="Batch" name="subscribe_destination_machines_comply_with_GDPR" severity="ERROR" statusCode="1">
+               <message>One or more destination machines for subscribe message do not comply with GDPR</message><![CDATA[self.machines->forAll(m | m.GDPRCompliance=true)]]></constraint>
+            <constraint id="model4datactrack.profile.writeData.no_empty_write_fields" isEnabledByDefault="true" lang="OCLpivot" mode="Batch" name="no_empty_write_fields" severity="ERROR" statusCode="1">
+               <message>Empty write field</message>
+               <description>Attemp to write an empty field on writeData, accuracy principle infringed</description>
+               <![CDATA[self.newData->forAll(f | f.value.size()>0)]]>
+            </constraint>
+            <constraint id="model4datactrack.profile.writeData.writeData_timeunit_not_days_or_hours_or_minutes" isEnabledByDefault="true" lang="OCLpivot" mode="Batch" name="writeData_timeunit_not_days_or_hours_or_minutes" severity="WARNING" statusCode="1">
+               <message>The units for the time of the writeData message are usually larger</message><![CDATA[self.maxTime.unit=TimeUnit::days or
+self.maxTime.unit=TimeUnit::h or
+self.maxTime.unit=TimeUnit::min]]></constraint>
+         </constraints>
+      </constraintProvider>
+   </extension>
+                  
+   
+   
+   
+   
+   <extension name="dsml.validation.generated.model4datactrack.profile" point="org.eclipse.emf.validation.constraintBindings">
+      <clientContext id="newDataClientContext">
+         <selector class="model4datactrack.validation.selectors.newDataClientSelector"/>
+      </clientContext>
+      <binding context="newDataClientContext">
+         <constraint ref="model4datactrack.validation.model4datactrack.profile.newData.no_empty_newData_fields"/>
+         <constraint ref="model4datactrack.validation.model4datactrack.profile.newData.machine_contains_data_to_rectify"/>
+         <constraint ref="model4datactrack.validation.model4datactrack.profile.newData.newData_destination_machines_comply_with_GDPR"/>
+      </binding>
+      <clientContext id="consentClientContext">
+         <selector class="model4datactrack.validation.selectors.consentClientSelector"/>
+      </clientContext>
+      <binding context="consentClientContext">
+         <constraint ref="model4datactrack.validation.model4datactrack.profile.consent.consent_machine_complies_with_GDPR"/>
+      </binding>
+      <clientContext id="writeDataClientContext">
+         <selector class="model4datactrack.validation.selectors.writeDataClientSelector"/>
+      </clientContext>
+      <binding context="writeDataClientContext">
+         <constraint ref="model4datactrack.validation.model4datactrack.profile.writeData.no_empty_write_fields"/>
+         <constraint ref="model4datactrack.validation.model4datactrack.profile.writeData.writeData_timeunit_not_days_or_hours_or_minutes"/>
+      </binding>
+      <clientContext id="AccessLogClientContext">
+         <selector class="model4datactrack.validation.selectors.AccessLogClientSelector"/>
+      </clientContext>
+      <binding context="AccessLogClientContext">
+         <constraint ref="model4datactrack.validation.model4datactrack.profile.AccessLog.log_access_match_sp_access"/>
+      </binding>
+      <clientContext id="notifyClientContext">
+         <selector class="model4datactrack.validation.selectors.notifyClientSelector"/>
+      </clientContext>
+      <binding context="notifyClientContext">
+         <constraint ref="model4datactrack.validation.model4datactrack.profile.notify.notify_destination_machines_comply_with_GDPR"/>
+      </binding>
+      <clientContext id="StickyPolicyClientContext">
+         <selector class="model4datactrack.validation.selectors.StickyPolicyClientSelector"/>
+      </clientContext>
+      <binding context="StickyPolicyClientContext">
+         <constraint ref="model4datactrack.validation.model4datactrack.profile.StickyPolicy.allowed_access_purpose"/>
+         <constraint ref="model4datactrack.validation.model4datactrack.profile.StickyPolicy.all_tps_in_history_given_permissions"/>
+      </binding>
+      <clientContext id="subscribeClientContext">
+         <selector class="model4datactrack.validation.selectors.subscribeClientSelector"/>
+      </clientContext>
+      <binding context="subscribeClientContext">
+         <constraint ref="model4datactrack.validation.model4datactrack.profile.subscribe.maxSubTime_greater_than_0"/>
+         <constraint ref="model4datactrack.validation.model4datactrack.profile.subscribe.machine_contains_data_to_subscribe_to"/>
+         <constraint ref="model4datactrack.validation.model4datactrack.profile.subscribe.subscribe_destination_machines_comply_with_GDPR"/>
+      </binding>
+      <clientContext id="eraseDataClientContext">
+         <selector class="model4datactrack.validation.selectors.eraseDataClientSelector"/>
+      </clientContext>
+      <binding context="eraseDataClientContext">
+         <constraint ref="model4datactrack.validation.model4datactrack.profile.eraseData.machine_contains_data_to_erase"/>
+         <constraint ref="model4datactrack.validation.model4datactrack.profile.eraseData.eraseData_destination_machines_comply_with_GDPR"/>
+      </binding>
+      <clientContext id="sendDataClientContext">
+         <selector class="model4datactrack.validation.selectors.sendDataClientSelector"/>
+      </clientContext>
+      <binding context="sendDataClientContext">
+         <constraint ref="model4datactrack.validation.model4datactrack.profile.sendData.sendData_timeunit_not_days_or_hours_or_minutes"/>
+         <constraint ref="model4datactrack.validation.model4datactrack.profile.sendData.sendData_maxTime_value_greater_than_0"/>
+      </binding>
+      <clientContext id="permissionClientContext">
+         <selector class="model4datactrack.validation.selectors.permissionClientSelector"/>
+      </clientContext>
+      <binding context="permissionClientContext">
+         <constraint ref="model4datactrack.validation.model4datactrack.profile.permission.no_access_permission_given_without_user_consent"/>
+      </binding>
+      <clientContext id="upDateClientContext">
+         <selector class="model4datactrack.validation.selectors.upDateClientSelector"/>
+      </clientContext>
+      <binding context="upDateClientContext">
+         <constraint ref="model4datactrack.validation.model4datactrack.profile.upDate.machine_contains_data_to_update"/>
+         <constraint ref="model4datactrack.validation.model4datactrack.profile.upDate.upDate_destination_machines_comply_with_GDPR"/>
+      </binding>
+      <clientContext id="SSMProcessorClientContext">
+         <selector class="model4datactrack.validation.selectors.SSMProcessorClientSelector"/>
+      </clientContext>
+      <binding context="SSMProcessorClientContext">
+         <constraint ref="model4datactrack.validation.model4datactrack.profile.SSMProcessor.SSMProccessor_complies_GDPR"/>
+      </binding>
+      <clientContext id="StorageClientContext">
+         <selector class="model4datactrack.validation.selectors.StorageClientSelector"/>
+      </clientContext>
+      <binding context="StorageClientContext">
+         <constraint ref="model4datactrack.validation.model4datactrack.profile.Storage.numberOfDrivers_greater_than_0"/>
+      </binding>
+      <clientContext id="rectifyDataClientContext">
+         <selector class="model4datactrack.validation.selectors.rectifyDataClientSelector"/>
+      </clientContext>
+      <binding context="rectifyDataClientContext">
+         <constraint ref="model4datactrack.validation.model4datactrack.profile.rectifyData.no_empty_rectify_fields"/>
+      </binding>
+      <clientContext id="CPUClientContext">
+         <selector class="model4datactrack.validation.selectors.CPUClientSelector"/>
+      </clientContext>
+      <binding context="CPUClientContext">
+         <constraint ref="model4datactrack.validation.model4datactrack.profile.CPU.cpu_cores_and_flops_greater_than_0"/>
+      </binding>
+      <clientContext id="RackClientContext">
+         <selector class="model4datactrack.validation.selectors.RackClientSelector"/>
+      </clientContext>
+      <binding context="RackClientContext">
+         <constraint ref="model4datactrack.validation.model4datactrack.profile.Rack.no_empty_racks"/>
+      </binding>
+   </extension>
+               
+
+
+
+
+</plugin>

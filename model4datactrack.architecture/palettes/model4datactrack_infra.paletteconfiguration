@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paletteconfiguration:PaletteConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" xmlns:paletteconfiguration="http://www.eclipse.org/papyrus/diagram/paletteconfiguration/0.8" id="mdctinfra_040420221730" label="mdct_infra_04042022">
+  <drawerConfigurations xmi:type="paletteconfiguration:DrawerConfiguration" id="mdctinfradef_040420221730" label="MDCT Infrastructure">
+    <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Package.gif"/>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="component.tool.component_1649086739216" label="AccessLog (Component)" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Component.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_WHdjcbQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_WHdjcrQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_WHdjc7QtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="component.tool.component_1649086744995" label="CPU (Component)" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Component.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_W-l_wbQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_W-mm0LQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_W-mm0bQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="component.tool.component_1649086750583" label="ComputingRack (Component)" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Component.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_Xz2z0bQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_Xz2z0rQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_Xz2z07QtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="component.tool.component_1649086755596" label="Data (Component)" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Component.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_Yjnc0bQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_Yjnc0rQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_Yjnc07QtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="component.tool.component_1649086761322" label="DataCenter (Component)" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Component.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_ZaPi0bQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_ZaPi0rQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_ZaPi07QtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="component.tool.component_1649086774989" label="Infrastructure (Component)" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Component.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_bcl1ELQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_bcl1EbQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_bcl1ErQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="component.tool.component_1649086782185" label="Memory (Component)" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Component.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_chLekbQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_chLekrQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_chLek7QtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="component.tool.component_1649086795076" label="Rack (Component)" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Component.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_ecEd8bQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_ecEd8rQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_ecEd87QtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="component.tool.component_1649086800269" label="SLA (Component)" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Component.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_fNn2sbQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_fNn2srQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_fNn2s7QtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="component.tool.component_1649086805981" label="SSMProcessor (Component)" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Component.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_gEOHgLQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_gEOHgbQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_gEOHgrQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="component.tool.component_1649086810743" label="StatelessAppCTP (Component)" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Component.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_gxfdMbQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_gxfdMrQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_gxfdM7QtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="component.tool.component_1649086816231" label="StatelessComputationMachine (Component)" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Component.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_hl_cQLQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_hl_cQbQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_hl_cQrQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="component.tool.component_1649086822731" label="StickyPolicy (Component)" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Component.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_ij1kkbQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_ij1kkrQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_ij1kk7QtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="component.tool.component_1649086828944" label="Storage (Component)" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Component.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_jfDPobQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_jfDPorQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_jfDPo7QtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="component.tool.component_1649086834935" label="StorageRack (Component)" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Component.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_kYPhcbQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_kYPhcrQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_kYPhc7QtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="component.tool.component_1649086840555" label="TrustedSCM (Component)" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Component.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_lNzQcbQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_lNzQcrQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_lNzQc7QtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="component.tool.component_1649086844797" label="UntrustedSCM (Component)" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Component.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_l2QXkbQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_l2QXkrQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_l2QXk7QtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+    <ownedConfigurations xmi:type="paletteconfiguration:ToolConfiguration" id="component.tool.component_1649086849300" label="User (Component)" description="" kind="CreationTool">
+      <icon xmi:type="paletteconfiguration:IconDescriptor" pluginID="org.eclipse.uml2.uml.edit" iconPath="/icons/full/obj16/Component.gif"/>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_mhYYMbQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_mhYYMrQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+      <elementDescriptors xmi:type="paletteconfiguration:ElementDescriptor">
+        <elementType xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/model4datactrack.palette/model/infra/model4datactrack_infra_UI.elementtypesconfigurations#_mhY_QLQtEeyF9p78HgeJtA"/>
+      </elementDescriptors>
+    </ownedConfigurations>
+  </drawerConfigurations>
+  <requiredProfiles>model4datactrack.profile</requiredProfiles>
+</paletteconfiguration:PaletteConfiguration>

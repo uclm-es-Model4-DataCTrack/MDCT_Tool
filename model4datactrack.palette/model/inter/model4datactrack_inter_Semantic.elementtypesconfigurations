@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elementtypesconfigurations:ElementTypeSetConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:applystereotypeadvice="http://www.eclipse.org/papyrus/uml/types/applystereotypeadvice/1.1" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" xmi:id="_5T74QLQtEeyF9p78HgeJtA" identifier="migelangel_1649086975423_Semantic" name="migelangel_1649086975423_Semantic" metamodelNsURI="migelangel_1649086975423_Semantic">
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_YKk1QLQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createLifeline1CreationTool_1649087182447_ASAC" target="_YKkOMLQuEeyF9p78HgeJtA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_YKk1QbQuEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::User" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_Yp2LMrQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createLifeline1CreationTool_1649087185735_ASAC" target="_Yp2LMLQuEeyF9p78HgeJtA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_Yp2LM7QuEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::ControllerCP" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_ZdyJkrQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createLifeline1CreationTool_1649087191186_ASAC" target="_ZdyJkLQuEeyF9p78HgeJtA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_ZdyJk7QuEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::StatelessAppCTP" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_aCmt4rQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createLifeline1CreationTool_1649087195046_ASAC" target="_aCmt4LQuEeyF9p78HgeJtA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_aCnU8LQuEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::SSMProcessor" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_b_f4YrQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087208126_ASAC" target="_b_f4YLQuEeyF9p78HgeJtA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_b_f4Y7QuEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::Info" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_dmsfsrQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087218959_ASAC" target="_dmsfsLQuEeyF9p78HgeJtA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_dmsfs7QuEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::SP" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_fW21wrQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087230720_ASAC" target="_fW21wLQuEeyF9p78HgeJtA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_fW21w7QuEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::accessInformation" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_hRldEbQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087243587_ASAC" target="_hRk2ALQuEeyF9p78HgeJtA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_hRldErQuEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::askAuthentication" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_iAdVQbQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087248502_ASAC" target="_iAcuMLQuEeyF9p78HgeJtA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_iAdVQrQuEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::askDataInformation" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_im9UkbQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087252536_ASAC" target="_im8tgLQuEeyF9p78HgeJtA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_im9UkrQuEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::checkChanges" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_jaUrMrQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087257942_ASAC" target="_jaUrMLQuEeyF9p78HgeJtA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_jaUrM7QuEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::consent" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_kB2lQrQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087262070_ASAC" target="_kB2lQLQuEeyF9p78HgeJtA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_kB2lQ7QuEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::consentInfo" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_klAVoLQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087265754_ASAC" target="_kk_ukLQuEeyF9p78HgeJtA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_klAVobQuEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::eraseData" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_lLJIkrQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087269755_ASAC" target="_lLJIkLQuEeyF9p78HgeJtA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_lLJIk7QuEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::informBreaches" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_luFdkrQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087273430_ASAC" target="_luFdkLQuEeyF9p78HgeJtA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_luFdk7QuEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::informationNotForFree" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_mYOmwrQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087277837_ASAC" target="_mYOmwLQuEeyF9p78HgeJtA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_mYOmw7QuEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::newData" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_pOYUgrQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087296949_ASAC" target="_pOYUgLQuEeyF9p78HgeJtA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_pOYUg7QuEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::newRestrictions" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_qNOiYrQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087303545_ASAC" target="_qNOiYLQuEeyF9p78HgeJtA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_qNOiY7QuEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::notify" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_q8sQcrQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087308512_ASAC" target="_q8sQcLQuEeyF9p78HgeJtA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_q8sQc7QuEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::ok" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_rm0ykrQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087312925_ASAC" target="_rm0ykLQuEeyF9p78HgeJtA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_rm0yk7QuEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::permission" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_sguPArQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087319023_ASAC" target="_sguPALQuEeyF9p78HgeJtA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_sguPA7QuEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::readData" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_vOL60rQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087337212_ASAC" target="_vOL60LQuEeyF9p78HgeJtA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_vOL607QuEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::rectifyData" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_whumUrQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087345952_ASAC" target="_whumULQuEeyF9p78HgeJtA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_whumU7QuEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::removeData" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_xo4borQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087353423_ASAC" target="_xo4boLQuEeyF9p78HgeJtA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_xo4bo7QuEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::removeSPInLog" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_yj0Z4rQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087359603_ASAC" target="_yj0Z4LQuEeyF9p78HgeJtA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_yj1A8LQuEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::reportDataDManagementForFree" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_zx1sMrQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087367764_ASAC" target="_zx1sMLQuEeyF9p78HgeJtA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_zx1sM7QuEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::reportDataManagement" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_0eSigrQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087372444_ASAC" target="_0eSigLQuEeyF9p78HgeJtA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_0eSig7QuEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::sendData" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_1KrucbQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087377076_ASAC" target="_1KrHYLQuEeyF9p78HgeJtA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_1KrucrQuEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::subscribe" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_2a7OUrQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087385512_ASAC" target="_2a7OULQuEeyF9p78HgeJtA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_2a7OU7QuEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::timeoutSubscription" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_3q9S0bQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087393887_ASAC" target="_3q8rwLQuEeyF9p78HgeJtA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_3q9S0rQuEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::tp" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_4k06ErQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087399973_ASAC" target="_4k06ELQuEeyF9p78HgeJtA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_4k06E7QuEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::upDate" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_9mvUwrQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087433727_ASAC" target="_9mvUwLQuEeyF9p78HgeJtA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_9mvUw7QuEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::wantToAccess" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <adviceBindingsConfigurations xmi:type="applystereotypeadvice:ApplyStereotypeAdviceConfiguration" xmi:id="_-deIcrQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087439448_ASAC" target="_-deIcLQuEeyF9p78HgeJtA">
+    <stereotypesToApply xmi:type="applystereotypeadvice:StereotypeToApply" xmi:id="_-deIc7QuEeyF9p78HgeJtA" stereotypeQualifiedName="model4datactrack.profile::writeData" updateName="true">
+      <requiredProfiles>model4datactrack.profile</requiredProfiles>
+    </stereotypesToApply>
+  </adviceBindingsConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_YKkOMLQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createLifeline1CreationTool_1649087182447" name="User (Lifeline)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Lifeline_Shape"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_Yp2LMLQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createLifeline1CreationTool_1649087185735" name="ControllerCP (Lifeline)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Lifeline_Shape"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_ZdyJkLQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createLifeline1CreationTool_1649087191186" name="StatelessAppCTP (Lifeline)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Lifeline_Shape"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_aCmt4LQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createLifeline1CreationTool_1649087195046" name="SSMProcessor (Lifeline)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Lifeline_Shape"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_b_f4YLQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087208126" name="Info (Message Async)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Message_AsynchEdge"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_dmsfsLQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087218959" name="SP (Message Async)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Message_AsynchEdge"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_fW21wLQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087230720" name="accessInformation (Message Async)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Message_AsynchEdge"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_hRk2ALQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087243587" name="askAuthentication (Message Async)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Message_AsynchEdge"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_iAcuMLQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087248502" name="askDataInformation (Message Async)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Message_AsynchEdge"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_im8tgLQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087252536" name="checkChanges (Message Async)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Message_AsynchEdge"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_jaUrMLQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087257942" name="consent (Message Async)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Message_AsynchEdge"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_kB2lQLQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087262070" name="consentInfo (Message Async)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Message_AsynchEdge"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_kk_ukLQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087265754" name="eraseData (Message Async)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Message_AsynchEdge"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_lLJIkLQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087269755" name="informBreaches (Message Async)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Message_AsynchEdge"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_luFdkLQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087273430" name="informationNotForFree (Message Async)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Message_AsynchEdge"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_mYOmwLQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087277837" name="newData (Message Async)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Message_AsynchEdge"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_pOYUgLQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087296949" name="newRestrictions (Message Async)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Message_AsynchEdge"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_qNOiYLQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087303545" name="notify (Message Async)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Message_AsynchEdge"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_q8sQcLQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087308512" name="ok (Message Async)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Message_AsynchEdge"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_rm0ykLQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087312925" name="permission (Message Async)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Message_AsynchEdge"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_sguPALQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087319023" name="readData (Message Async)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Message_AsynchEdge"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_vOL60LQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087337212" name="rectifyData (Message Async)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Message_AsynchEdge"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_whumULQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087345952" name="removeData (Message Async)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Message_AsynchEdge"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_xo4boLQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087353423" name="removeSPInLog (Message Async)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Message_AsynchEdge"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_yj0Z4LQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087359603" name="reportDataDManagementForFree (Message Async)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Message_AsynchEdge"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_zx1sMLQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087367764" name="reportDataManagement (Message Async)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Message_AsynchEdge"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_0eSigLQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087372444" name="sendData (Message Async)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Message_AsynchEdge"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_1KrHYLQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087377076" name="subscribe (Message Async)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Message_AsynchEdge"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_2a7OULQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087385512" name="timeoutSubscription (Message Async)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Message_AsynchEdge"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_3q8rwLQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087393887" name="tp (Message Async)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Message_AsynchEdge"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_4k06ELQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087399973" name="upDate (Message Async)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Message_AsynchEdge"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_9mvUwLQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087433727" name="wantToAccess (Message Async)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Message_AsynchEdge"/>
+  </elementTypeConfigurations>
+  <elementTypeConfigurations xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" xmi:id="_-deIcLQuEeyF9p78HgeJtA" identifier="mdctinter_040420221740.createMessageAsync2CreationTool_1649087439448" name="writeData (Message Async)" hint="" kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+    <specializedTypes xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/umldi.elementtypesconfigurations#org.eclipse.papyrus.umldi.Message_AsynchEdge"/>
+  </elementTypeConfigurations>
+</elementtypesconfigurations:ElementTypeSetConfiguration>
